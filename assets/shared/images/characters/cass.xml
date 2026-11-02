@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cass_official.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cass down0000" x="0" y="0" width="447" height="696" frameX="0" frameY="-6" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0001" x="0" y="0" width="447" height="696" frameX="0" frameY="-6" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0002" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0003" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0004" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0005" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0006" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0007" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass down0008" x="447" y="0" width="467" height="701" frameX="0" frameY="0" frameWidth="467" frameHeight="702"/>
+	<SubTexture name="cass idle0000" x="914" y="0" width="497" height="713" frameX="-2" frameY="-10" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0001" x="914" y="0" width="497" height="713" frameX="-2" frameY="-10" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0002" x="1411" y="0" width="496" height="717" frameX="-3" frameY="-5" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0003" x="1411" y="0" width="496" height="717" frameX="-3" frameY="-5" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0004" x="1907" y="0" width="498" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0005" x="1907" y="0" width="498" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0006" x="2405" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0007" x="2405" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0008" x="2902" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0009" x="2902" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0010" x="2902" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0011" x="2902" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0012" x="2902" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass idle0013" x="2902" y="0" width="497" height="722" frameX="0" frameY="0" frameWidth="499" frameHeight="723"/>
+	<SubTexture name="cass left0000" x="3399" y="0" width="502" height="713" frameX="0" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0001" x="3399" y="0" width="502" height="713" frameX="0" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0002" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0003" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0004" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0005" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0006" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0007" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0008" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0009" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0010" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass left0011" x="0" y="722" width="506" height="713" frameX="-10" frameY="0" frameWidth="516" frameHeight="713"/>
+	<SubTexture name="cass right0000" x="506" y="722" width="441" height="735" frameX="-10" frameY="0" frameWidth="456" frameHeight="735"/>
+	<SubTexture name="cass right0001" x="506" y="722" width="441" height="735" frameX="-10" frameY="0" frameWidth="456" frameHeight="735"/>
+	<SubTexture name="cass right0002" x="947" y="722" width="456" height="735"/>
+	<SubTexture name="cass right0003" x="947" y="722" width="456" height="735"/>
+	<SubTexture name="cass right0004" x="947" y="722" width="456" height="735"/>
+	<SubTexture name="cass right0005" x="947" y="722" width="456" height="735"/>
+	<SubTexture name="cass up0000" x="1403" y="722" width="441" height="721" frameX="0" frameY="0" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0001" x="1403" y="722" width="441" height="721" frameX="0" frameY="0" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0002" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0003" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0004" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0005" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0006" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0007" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0008" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0009" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0010" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+	<SubTexture name="cass up0011" x="1844" y="722" width="442" height="718" frameX="-5" frameY="-3" frameWidth="447" frameHeight="721"/>
+</TextureAtlas>

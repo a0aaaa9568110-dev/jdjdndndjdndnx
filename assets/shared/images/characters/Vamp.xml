@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Vamp.png">
+<SubTexture name="Vamp idle0000" x="3591" y="1514" width="397" height="500" frameX="-10" frameY="-23" frameWidth="418" frameHeight="533" />
+<SubTexture name="Vamp idle0001" x="3202" y="1016" width="389" height="507" frameX="-16" frameY="-16" frameWidth="418" frameHeight="533" />
+<SubTexture name="Vamp idle0002" x="1532" y="2621" width="385" height="508" frameX="-19" frameY="-15" frameWidth="418" frameHeight="533" />
+<SubTexture name="Vamp idle0003" x="2791" y="2054" width="386" height="509" frameX="-18" frameY="-14" frameWidth="418" frameHeight="533" />
+<SubTexture name="Vamp idle0004" x="1917" y="2621" width="387" height="508" frameX="-17" frameY="-15" frameWidth="418" frameHeight="533" />
+<SubTexture name="Vamp left0000" x="1560" y="0" width="443" height="526" frameX="-11" frameY="-16" frameWidth="541" frameHeight="551" />
+<SubTexture name="Vamp left0001" x="1560" y="526" width="440" height="526" frameX="-14" frameY="-15" frameWidth="541" frameHeight="551" />
+<SubTexture name="Vamp left0002" x="0" y="1067" width="440" height="526" frameX="-14" frameY="-15" frameWidth="541" frameHeight="551" />
+<SubTexture name="Vamp down0000" x="1212" y="3133" width="401" height="447" frameX="-15" frameY="-23" frameWidth="430" frameHeight="480" />
+<SubTexture name="Vamp down0001" x="3591" y="2470" width="404" height="454" frameX="-11" frameY="-16" frameWidth="430" frameHeight="480" />
+<SubTexture name="Vamp down0002" x="409" y="3133" width="404" height="454" frameX="-11" frameY="-16" frameWidth="430" frameHeight="480" />
+<SubTexture name="Vamp up0000" x="382" y="0" width="392" height="533" frameX="-14" frameY="-19" frameWidth="427" frameHeight="563" />
+<SubTexture name="Vamp up0001" x="1163" y="0" width="397" height="527" frameX="-15" frameY="-26" frameWidth="427" frameHeight="563" />
+<SubTexture name="Vamp up0002" x="1163" y="527" width="397" height="527" frameX="-15" frameY="-26" frameWidth="427" frameHeight="563" />
+<SubTexture name="Vamp right0000" x="3591" y="0" width="408" height="506" frameX="-12" frameY="-21" frameWidth="436" frameHeight="538" />
+<SubTexture name="Vamp right0001" x="413" y="2621" width="392" height="509" frameX="-11" frameY="-18" frameWidth="436" frameHeight="538" />
+<SubTexture name="Vamp right0002" x="805" y="2621" width="390" height="509" frameX="-11" frameY="-18" frameWidth="436" frameHeight="538" />
+<SubTexture name="Vamp miss left0000" x="1560" y="0" width="443" height="526" frameX="-23" frameY="-17" frameWidth="553" frameHeight="553" />
+<SubTexture name="Vamp miss left0001" x="0" y="535" width="447" height="532" frameX="-23" frameY="-11" frameWidth="553" frameHeight="553" />
+<SubTexture name="Vamp miss left0002" x="447" y="535" width="449" height="532" frameX="-20" frameY="-11" frameWidth="553" frameHeight="553" />
+<SubTexture name="Vamp miss down0000" x="1613" y="3133" width="400" height="446" frameX="-18" frameY="-21" frameWidth="429" frameHeight="477" />
+<SubTexture name="Vamp miss down0001" x="3591" y="2014" width="395" height="456" frameX="-13" frameY="-11" frameWidth="429" frameHeight="477" />
+<SubTexture name="Vamp miss down0002" x="813" y="3133" width="399" height="451" frameX="-11" frameY="-16" frameWidth="429" frameHeight="477" />
+<SubTexture name="Vamp miss up0000" x="382" y="0" width="392" height="533" frameX="-13" frameY="-19" frameWidth="415" frameHeight="564" />
+<SubTexture name="Vamp miss up0001" x="774" y="0" width="389" height="533" frameX="-11" frameY="-21" frameWidth="415" frameHeight="564" />
+<SubTexture name="Vamp miss up0002" x="0" y="0" width="382" height="535" frameX="-15" frameY="-19" frameWidth="415" frameHeight="564" />
+<SubTexture name="Vamp miss right0000" x="0" y="3133" width="409" height="506" frameX="-28" frameY="-19" frameWidth="453" frameHeight="535" />
+<SubTexture name="Vamp miss right0001" x="3591" y="506" width="391" height="504" frameX="-29" frameY="-21" frameWidth="453" frameHeight="535" />
+<SubTexture name="Vamp miss right0002" x="3591" y="1010" width="394" height="504" frameX="-29" frameY="-21" frameWidth="453" frameHeight="535" />
+<SubTexture name="Vamp hey0000" x="440" y="1067" width="446" height="523" frameX="-18" frameY="-19" frameWidth="494" frameHeight="552" />
+<SubTexture name="Vamp hey0001" x="2003" y="0" width="400" height="514" frameX="-34" frameY="-28" frameWidth="494" frameHeight="552" />
+<SubTexture name="Vamp hey0002" x="886" y="1067" width="405" height="516" frameX="-32" frameY="-26" frameWidth="494" frameHeight="552" />
+<SubTexture name="Vamp hey0003" x="1291" y="1067" width="405" height="516" frameX="-32" frameY="-26" frameWidth="494" frameHeight="552" />
+<SubTexture name="Vamp Summon mic0000" x="2304" y="2621" width="341" height="508" frameX="-129" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0001" x="2304" y="2621" width="341" height="508" frameX="-129" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0002" x="1195" y="2621" width="337" height="509" frameX="-131" frameY="-24" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0003" x="1195" y="2621" width="337" height="509" frameX="-131" frameY="-24" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0004" x="2791" y="1542" width="362" height="512" frameX="-105" frameY="-21" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0005" x="2003" y="514" width="387" height="514" frameX="-80" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0006" x="2003" y="514" width="387" height="514" frameX="-80" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0007" x="2003" y="1028" width="389" height="514" frameX="-78" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0008" x="2003" y="1028" width="389" height="514" frameX="-78" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0009" x="0" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0010" x="0" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0011" x="388" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0012" x="388" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0013" x="776" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0014" x="776" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0015" x="1164" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0016" x="1164" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0017" x="1552" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0018" x="1552" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0019" x="1940" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0020" x="1940" y="1593" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0021" x="2403" y="0" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0022" x="2403" y="0" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0023" x="2403" y="514" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0024" x="2403" y="514" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0025" x="2403" y="1028" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0026" x="0" y="2107" width="389" height="514" frameX="-78" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0027" x="389" y="2107" width="389" height="514" frameX="-78" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0028" x="2403" y="1542" width="388" height="514" frameX="-79" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0029" x="778" y="2107" width="393" height="514" frameX="-74" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0030" x="1171" y="2107" width="419" height="514" frameX="-50" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0031" x="1171" y="2107" width="419" height="514" frameX="-50" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0032" x="1590" y="2107" width="411" height="514" frameX="-56" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0033" x="1590" y="2107" width="411" height="514" frameX="-56" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0034" x="2001" y="2107" width="456" height="514" frameX="-11" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0035" x="2001" y="2107" width="456" height="514" frameX="-11" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0036" x="2791" y="0" width="411" height="514" frameX="-56" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0037" x="2791" y="0" width="411" height="514" frameX="-56" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0038" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0039" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0040" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0041" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0042" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0043" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0044" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0045" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0046" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0047" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0048" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0049" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0050" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0051" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0052" x="2791" y="514" width="409" height="514" frameX="-58" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0053" x="2791" y="1028" width="410" height="514" frameX="-57" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0054" x="2791" y="1028" width="410" height="514" frameX="-57" frameY="-19" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0055" x="0" y="2621" width="413" height="512" frameX="-55" frameY="-21" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0056" x="0" y="2621" width="413" height="512" frameX="-55" frameY="-21" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0057" x="2645" y="2621" width="427" height="508" frameX="-40" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0058" x="2645" y="2621" width="427" height="508" frameX="-40" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0059" x="3202" y="0" width="389" height="508" frameX="-78" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0060" x="3202" y="0" width="389" height="508" frameX="-78" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0061" x="3202" y="508" width="386" height="508" frameX="-81" frameY="-25" frameWidth="489" frameHeight="543" />
+<SubTexture name="Vamp Summon mic0062" x="3202" y="508" width="386" height="508" frameX="-81" frameY="-25" frameWidth="489" frameHeight="543" />
+</TextureAtlas>

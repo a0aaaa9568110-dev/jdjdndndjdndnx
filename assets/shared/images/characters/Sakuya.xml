@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Sakuya.png">
+<SubTexture name="Sakuya idle0000" x="864" y="0" width="285" height="667" frameX="-190" frameY="-6" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya idle0001" x="1149" y="0" width="286" height="667" frameX="-190" frameY="-6" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya idle0002" x="285" y="684" width="287" height="666" frameX="-190" frameY="-7" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya idle0003" x="0" y="684" width="285" height="667" frameX="-190" frameY="-6" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya idle0004" x="572" y="684" width="285" height="666" frameX="-190" frameY="-7" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya right0000" x="1801" y="0" width="442" height="617" frameX="-191" frameY="-65" frameWidth="686" frameHeight="708" />
+<SubTexture name="Sakuya right0001" x="0" y="1351" width="444" height="613" frameX="-191" frameY="-66" frameWidth="686" frameHeight="708" />
+<SubTexture name="Sakuya right0002" x="444" y="1351" width="444" height="613" frameX="-191" frameY="-66" frameWidth="686" frameHeight="708" />
+<SubTexture name="Sakuya left0000" x="857" y="684" width="365" height="637" frameX="-77" frameY="-32" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya left0001" x="1435" y="0" width="366" height="631" frameX="-76" frameY="-38" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya left0002" x="1435" y="631" width="366" height="631" frameX="-76" frameY="-38" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya down0000" x="1801" y="617" width="311" height="426" frameX="-133" frameY="-253" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya down0001" x="888" y="1351" width="309" height="426" frameX="-135" frameY="-253" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya down0002" x="1197" y="1351" width="309" height="426" frameX="-135" frameY="-253" frameWidth="664" frameHeight="686" />
+<SubTexture name="Sakuya up0000" x="576" y="0" width="288" height="682" frameX="-208" frameY="-2" frameWidth="686" frameHeight="708" />
+<SubTexture name="Sakuya up0001" x="0" y="0" width="288" height="684" frameX="-208" frameY="0" frameWidth="686" frameHeight="708" />
+<SubTexture name="Sakuya up0002" x="288" y="0" width="288" height="683" frameX="-208" frameY="-1" frameWidth="686" frameHeight="708" />
+</TextureAtlas>

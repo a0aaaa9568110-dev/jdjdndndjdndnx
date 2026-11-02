@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zibidicool.png">
+	<!-- Created with Adobe Animate version 24.0.9.74 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="downcool0000" x="0" y="0" width="528" height="767" frameX="-2" frameY="-20" frameWidth="530" frameHeight="788"/>
+	<SubTexture name="downcool0001" x="0" y="0" width="528" height="767" frameX="-2" frameY="-20" frameWidth="530" frameHeight="788"/>
+	<SubTexture name="downcool0002" x="528" y="0" width="519" height="788" frameX="0" frameY="0" frameWidth="530" frameHeight="788"/>
+	<SubTexture name="downcool0003" x="528" y="0" width="519" height="788" frameX="0" frameY="0" frameWidth="530" frameHeight="788"/>
+	<SubTexture name="downcool0004" x="528" y="0" width="519" height="788" frameX="0" frameY="0" frameWidth="530" frameHeight="788"/>
+	<SubTexture name="downcool0005" x="528" y="0" width="519" height="788" frameX="0" frameY="0" frameWidth="530" frameHeight="788"/>
+	<SubTexture name="idlecool0000" x="1047" y="0" width="562" height="792" frameX="-23" frameY="-20" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0001" x="1047" y="0" width="562" height="792" frameX="-23" frameY="-20" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0002" x="1609" y="0" width="564" height="804" frameX="-22" frameY="-8" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0003" x="1609" y="0" width="564" height="804" frameX="-22" frameY="-8" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0004" x="2173" y="0" width="568" height="812" frameX="-5" frameY="0" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0005" x="2173" y="0" width="568" height="812" frameX="-5" frameY="0" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0006" x="2741" y="0" width="558" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0007" x="2741" y="0" width="558" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0008" x="3299" y="0" width="557" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0009" x="3299" y="0" width="557" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0010" x="3299" y="0" width="557" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0011" x="3299" y="0" width="557" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0012" x="3299" y="0" width="557" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="idlecool0013" x="3299" y="0" width="557" height="809" frameX="0" frameY="-3" frameWidth="586" frameHeight="812"/>
+	<SubTexture name="leftcool0000" x="0" y="812" width="499" height="823" frameX="0" frameY="-2" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0001" x="0" y="812" width="499" height="823" frameX="0" frameY="-2" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0002" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0003" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0004" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0005" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0006" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0007" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="leftcool0008" x="499" y="812" width="503" height="825" frameX="-5" frameY="0" frameWidth="508" frameHeight="825"/>
+	<SubTexture name="rightcool0000" x="1002" y="812" width="508" height="769" frameX="-12" frameY="-10" frameWidth="520" frameHeight="779"/>
+	<SubTexture name="rightcool0001" x="1002" y="812" width="508" height="769" frameX="-12" frameY="-10" frameWidth="520" frameHeight="779"/>
+	<SubTexture name="rightcool0002" x="1510" y="812" width="508" height="778" frameX="0" frameY="0" frameWidth="520" frameHeight="779"/>
+	<SubTexture name="rightcool0003" x="1510" y="812" width="508" height="778" frameX="0" frameY="0" frameWidth="520" frameHeight="779"/>
+	<SubTexture name="rightcool0004" x="1510" y="812" width="508" height="778" frameX="0" frameY="0" frameWidth="520" frameHeight="779"/>
+	<SubTexture name="rightcool0005" x="1510" y="812" width="508" height="778" frameX="0" frameY="0" frameWidth="520" frameHeight="779"/>
+	<SubTexture name="upcool0000" x="2018" y="812" width="509" height="819" frameX="0" frameY="-4" frameWidth="511" frameHeight="823"/>
+	<SubTexture name="upcool0001" x="2018" y="812" width="509" height="819" frameX="0" frameY="-4" frameWidth="511" frameHeight="823"/>
+	<SubTexture name="upcool0002" x="2527" y="812" width="496" height="823" frameX="-15" frameY="0" frameWidth="511" frameHeight="823"/>
+	<SubTexture name="upcool0003" x="2527" y="812" width="496" height="823" frameX="-15" frameY="0" frameWidth="511" frameHeight="823"/>
+	<SubTexture name="upcool0004" x="2527" y="812" width="496" height="823" frameX="-15" frameY="0" frameWidth="511" frameHeight="823"/>
+</TextureAtlas>

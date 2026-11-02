@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aqua.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="aqua dead0000" x="0" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0001" x="666" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0002" x="1332" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0003" x="1998" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0004" x="2664" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0005" x="3330" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0006" x="3996" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0007" x="4662" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0008" x="5328" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0009" x="5994" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0010" x="6660" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0011" x="7326" y="0" width="666" height="659"/>
+	<SubTexture name="aqua dead0012" x="0" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0013" x="666" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0014" x="1332" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0015" x="1998" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0016" x="2664" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0017" x="3330" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0018" x="3996" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0019" x="4662" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0020" x="5328" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0021" x="5994" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0022" x="6660" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0023" x="7326" y="659" width="666" height="659"/>
+	<SubTexture name="aqua dead0024" x="0" y="1318" width="666" height="659"/>
+	<SubTexture name="aqua down0000" x="666" y="1318" width="497" height="503"/>
+	<SubTexture name="aqua down0001" x="1163" y="1318" width="497" height="503"/>
+	<SubTexture name="aqua idle0000" x="1660" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0001" x="2344" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0002" x="3028" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0003" x="3028" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0004" x="3712" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0005" x="3712" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0006" x="4396" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0007" x="5080" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0008" x="5764" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0009" x="6448" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0010" x="7132" y="1318" width="684" height="566"/>
+	<SubTexture name="aqua idle0011" x="0" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua idle0012" x="684" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua idle0013" x="684" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua idle0014" x="1368" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua idle0015" x="1368" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua idle0016" x="2052" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua idle0017" x="2736" y="1977" width="684" height="566"/>
+	<SubTexture name="aqua left0000" x="3420" y="1977" width="523" height="553"/>
+	<SubTexture name="aqua left0001" x="3420" y="1977" width="523" height="553"/>
+	<SubTexture name="aqua left0002" x="3943" y="1977" width="523" height="553"/>
+	<SubTexture name="aqua right0000" x="4466" y="1977" width="484" height="533"/>
+	<SubTexture name="aqua right0001" x="4950" y="1977" width="484" height="533"/>
+	<SubTexture name="aqua up0000" x="5434" y="1977" width="400" height="615"/>
+	<SubTexture name="aqua up0001" x="5834" y="1977" width="400" height="615"/>
+	<SubTexture name="aqua yeah0000" x="6234" y="1977" width="392" height="607"/>
+	<SubTexture name="aqua yeah0001" x="6626" y="1977" width="392" height="607"/>
+	<SubTexture name="aqua yeah0002" x="6626" y="1977" width="392" height="607"/>
+	<SubTexture name="aqua yeah0003" x="7018" y="1977" width="392" height="607"/>
+	<SubTexture name="aqua yeah0004" x="7410" y="1977" width="392" height="607"/>
+	<SubTexture name="idle aqua dead0000" x="0" y="2592" width="473" height="556"/>
+	<SubTexture name="miss aqua down0000" x="473" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0001" x="970" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0002" x="970" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0003" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0004" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0005" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0006" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0007" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0008" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0009" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0010" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0011" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0012" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0013" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0014" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0015" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0016" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0017" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0018" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0019" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0020" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0021" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0022" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0023" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0024" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0025" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0026" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0027" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0028" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0029" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0030" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0031" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0032" x="1467" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0033" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua down0034" x="1964" y="2592" width="497" height="515"/>
+	<SubTexture name="miss aqua left0000" x="2461" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0001" x="2983" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0002" x="2983" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0003" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0004" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0005" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0006" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0007" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0008" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0009" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0010" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0011" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0012" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0013" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0014" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0015" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0016" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0017" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0018" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0019" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0020" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0021" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0022" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0023" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0024" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0025" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0026" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0027" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0028" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0029" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0030" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0031" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0032" x="3505" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0033" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua left0034" x="4027" y="2592" width="522" height="575"/>
+	<SubTexture name="miss aqua right0000" x="4549" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0001" x="5039" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0002" x="5039" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0003" x="5529" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0004" x="5529" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0005" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0006" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0007" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0008" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0009" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0010" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0011" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0012" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0013" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0014" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0015" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0016" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0017" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0018" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0019" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0020" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0021" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0022" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0023" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0024" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0025" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0026" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0027" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0028" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0029" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0030" x="6019" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0031" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0032" x="6509" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0033" x="6999" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua right0034" x="6999" y="2592" width="490" height="525"/>
+	<SubTexture name="miss aqua up0000" x="7489" y="2592" width="397" height="613"/>
+	<SubTexture name="miss aqua up0001" x="0" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0002" x="0" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0003" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0004" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0005" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0006" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0007" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0008" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0009" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0010" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0011" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0012" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0013" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0014" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0015" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0016" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0017" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0018" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0019" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0020" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0021" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0022" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0023" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0024" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0025" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0026" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0027" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0028" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0029" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0030" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0031" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0032" x="397" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0033" x="794" y="3205" width="397" height="613"/>
+	<SubTexture name="miss aqua up0034" x="794" y="3205" width="397" height="613"/>
+</TextureAtlas>

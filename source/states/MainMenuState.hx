@@ -17,7 +17,10 @@ class MainMenuState extends MusicBeatState
 	public static var psychEngineVersion:String = '1.0.4'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 	public static var curColumn:MainMenuColumn = CENTER;
-	var allowMouse:Bool = false; //Turn this off to block mouse movement in menus
+	var allowMouse:Bool = true; //Turn this off to block mouse movement in menus
+
+	static inline var BG_COUNT:Int = 15; // How many backgrounds are in images/menuart/ (menuBG1 ... menuBG10)
+	static var lastBG:Int = -1; // Remembers the last background so you don't get the same one twice in a row
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	var leftItem:FlxSprite;
@@ -52,7 +55,12 @@ class MainMenuState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		var yScroll:Float = 0.25;
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menu'));
+
+		// Pick a random background (1-10), avoiding the one used last time
+		var bgNum:Int = FlxG.random.int(1, BG_COUNT, lastBG > 0 ? [lastBG] : null);
+		lastBG = bgNum;
+
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuart/menuBG' + bgNum));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
@@ -63,13 +71,14 @@ class MainMenuState extends MusicBeatState
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menu'));
+		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
 		magenta.antialiasing = ClientPrefs.data.antialiasing;
 		magenta.scrollFactor.set(0, yScroll);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
+		magenta.color = 0xFFfd719b;
 		add(magenta);
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
@@ -77,24 +86,27 @@ class MainMenuState extends MusicBeatState
 
 		for (num => option in optionShit)
 		{
-			var item:FlxSprite = createMenuItem(option, 0, (num * 140) + 90);
+			var item:FlxSprite = createMenuItem(option, 60, (num * 140) + 90); // x = 60 puts the main items on the left
 			item.y += (4 - optionShit.length) * 70; // Offsets for when you have anything other than 4 items
-			item.screenCenter(X);
 		}
 
+		// Achievements and Options are now stacked on the right side, since the main items took the left
 		if (leftOption != null)
-			leftItem = createMenuItem(leftOption, 60, 490);
+		{
+			leftItem = createMenuItem(leftOption, FlxG.width - 60, 350);
+			leftItem.x -= leftItem.width;
+		}
 		if (rightOption != null)
 		{
 			rightItem = createMenuItem(rightOption, FlxG.width - 60, 490);
 			rightItem.x -= rightItem.width;
 		}
 
-		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "JACOB BUILD v" + psychEngineVersion, 12);
+		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
 		psychVer.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(psychVer);
-		var fnfVer:FlxText = new FlxText(12, FlxG.height - 24, 0, "JACOB BUILD v" + Application.current.meta.get('version'), 12);
+		var fnfVer:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
 		fnfVer.scrollFactor.set();
 		fnfVer.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(fnfVer);
@@ -148,10 +160,26 @@ class MainMenuState extends MusicBeatState
 		if (!selectedSomethin)
 		{
 			if (controls.UI_UP_P)
-				changeItem(-1);
+			{
+				if (curColumn == RIGHT && leftOption != null)
+				{
+					curColumn = LEFT; // Options -> Achievements (up)
+					changeItem();
+				}
+				else if (curColumn == CENTER)
+					changeItem(-1);
+			}
 
 			if (controls.UI_DOWN_P)
-				changeItem(1);
+			{
+				if (curColumn == LEFT && rightOption != null)
+				{
+					curColumn = RIGHT; // Achievements -> Options (down)
+					changeItem();
+				}
+				else if (curColumn == CENTER)
+					changeItem(1);
+			}
 
 			var allowMouse:Bool = allowMouse;
 			if (allowMouse && ((FlxG.mouse.deltaScreenX != 0 && FlxG.mouse.deltaScreenY != 0) || FlxG.mouse.justPressed)) //FlxG.mouse.deltaScreenX/Y checks is more accurate than FlxG.mouse.justMoved
@@ -225,19 +253,23 @@ class MainMenuState extends MusicBeatState
 			switch(curColumn)
 			{
 				case CENTER:
-					if(controls.UI_LEFT_P && leftOption != null)
+					// The side buttons are on the right now, so press RIGHT to reach them
+					if(controls.UI_RIGHT_P)
 					{
-						curColumn = LEFT;
-						changeItem();
-					}
-					else if(controls.UI_RIGHT_P && rightOption != null)
-					{
-						curColumn = RIGHT;
-						changeItem();
+						if(leftOption != null)
+						{
+							curColumn = LEFT; // Achievements (top right)
+							changeItem();
+						}
+						else if(rightOption != null)
+						{
+							curColumn = RIGHT; // Options (bottom right)
+							changeItem();
+						}
 					}
 
 				case LEFT:
-					if(controls.UI_RIGHT_P)
+					if(controls.UI_LEFT_P)
 					{
 						curColumn = CENTER;
 						changeItem();

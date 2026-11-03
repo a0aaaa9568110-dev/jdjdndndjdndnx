@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="change.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="motion0000" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0001" x="0" y="1173" width="474" height="706" frameX="-223" frameY="-263" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0002" x="0" y="0" width="885" height="1173" frameX="2" frameY="2" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0003" x="1650" y="0" width="745" height="1045" frameX="-50" frameY="-78" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0004" x="1650" y="0" width="745" height="1045" frameX="-50" frameY="-78" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0005" x="885" y="0" width="765" height="1074" frameX="-42" frameY="-61" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0006" x="885" y="0" width="765" height="1074" frameX="-42" frameY="-61" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0007" x="885" y="0" width="765" height="1074" frameX="-42" frameY="-61" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0008" x="885" y="0" width="765" height="1074" frameX="-42" frameY="-61" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0009" x="885" y="0" width="765" height="1074" frameX="-42" frameY="-61" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0010" x="0" y="1173" width="474" height="706" frameX="-223" frameY="-263" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0011" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0012" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0013" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0014" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0015" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0016" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0017" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0018" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+	<SubTexture name="motion0019" x="1650" y="1045" width="4" height="4" frameX="-55" frameY="-38" frameWidth="881" frameHeight="1169"/>
+</TextureAtlas>

@@ -45,7 +45,7 @@
 	"no_antialiasing": false,
 	"image": "characters/newqt",
 	"position": [-90, 250],
-	"healthicon": "no",
+	"healthicon": "QT",
 	"flip_x": true,
 	"healthbar_colors": [161, 161, 161],
 	"camera_position": [-80, 50],

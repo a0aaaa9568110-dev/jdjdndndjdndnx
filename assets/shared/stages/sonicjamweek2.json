@@ -1,0 +1,91 @@
+{
+	"objects": [
+		{
+			"x": -252,
+			"y": -79,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/week2/sonic/halloweensonic",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": 120,
+			"y": -88,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/week2/sonic/lightsonic",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "light",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 0.3,
+			"type": "sprite"
+		}
+	],
+	"camera_opponent": [
+		0,
+		0
+	],
+	"girlfriend": [
+		358,
+		146
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "newqt"
+	},
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"boyfriend": [
+		1011,
+		136
+	],
+	"opponent": [
+		376,
+		137
+	],
+	"hide_girlfriend": true,
+	"directory": "",
+	"camera_speed": 1,
+	"defaultZoom": 0.75,
+	"stageUI": "normal",
+	"camera_boyfriend": [
+		0,
+		0
+	]
+}

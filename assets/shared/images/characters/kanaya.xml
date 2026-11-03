@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="kanaya.png">
+<SubTexture name="kanaya idle0000" x="0" y="2901" width="558" height="1334" frameX="-629" frameY="-346" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0001" x="3584" y="2901" width="598" height="1296" frameX="-601" frameY="-384" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0002" x="4245" y="2592" width="587" height="1294" frameX="-608" frameY="-386" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0003" x="3440" y="1345" width="554" height="1341" frameX="-639" frameY="-339" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0004" x="2234" y="2901" width="556" height="1331" frameX="-634" frameY="-349" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0005" x="1674" y="2901" width="560" height="1333" frameX="-627" frameY="-348" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0006" x="558" y="2901" width="558" height="1334" frameX="-629" frameY="-346" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0007" x="558" y="2901" width="558" height="1334" frameX="-629" frameY="-346" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0008" x="558" y="2901" width="558" height="1334" frameX="-629" frameY="-346" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0009" x="558" y="2901" width="558" height="1334" frameX="-629" frameY="-346" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya idle0010" x="1116" y="2901" width="558" height="1334" frameX="-629" frameY="-346" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya right0000" x="0" y="1542" width="610" height="1359" frameX="-768" frameY="-336" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya right0001" x="2849" y="0" width="591" height="1363" frameX="-764" frameY="-332" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya right0002" x="2261" y="0" width="588" height="1364" frameX="-764" frameY="-331" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya right0003" x="2261" y="0" width="588" height="1364" frameX="-764" frameY="-331" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya down0000" x="5038" y="0" width="796" height="1272" frameX="-491" frameY="-446" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya down0001" x="2790" y="2901" width="794" height="1297" frameX="-487" frameY="-424" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya down0002" x="4245" y="0" width="793" height="1296" frameX="-488" frameY="-425" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya down0003" x="4245" y="1296" width="793" height="1296" frameX="-488" frameY="-425" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya up0000" x="0" y="0" width="558" height="1542" frameX="-640" frameY="-159" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya up0001" x="1690" y="0" width="571" height="1483" frameX="-629" frameY="-218" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya up0002" x="558" y="0" width="566" height="1489" frameX="-632" frameY="-212" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya up0003" x="1124" y="0" width="566" height="1489" frameX="-632" frameY="-212" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya left0000" x="610" y="1542" width="816" height="1346" frameX="-391" frameY="-340" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya left0001" x="2231" y="1542" width="803" height="1345" frameX="-412" frameY="-341" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya left0002" x="3440" y="0" width="805" height="1345" frameX="-409" frameY="-341" frameWidth="1920" frameHeight="1920" />
+<SubTexture name="kanaya left0003" x="1426" y="1542" width="805" height="1346" frameX="-409" frameY="-340" frameWidth="1920" frameHeight="1920" />
+</TextureAtlas>

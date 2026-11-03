@@ -45,7 +45,7 @@
 	"no_antialiasing": false,
 	"image": "characters/cass",
 	"position": [-40, 50],
-	"healthicon": "no",
+	"healthicon": "cass",
 	"flip_x": false,
 	"healthbar_colors": [255, 255, 255],
 	"camera_position": [-120, 70],

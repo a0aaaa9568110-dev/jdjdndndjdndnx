@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [10, -81],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "do"
+		},
+		{
+			"offsets": [144, -26],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "le"
+		},
+		{
+			"offsets": [-10, 50],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "id"
+		},
+		{
+			"offsets": [-40, -40],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "ri"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/KRINQLEREAL",
+	"position": [30, 160],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [-140, 10],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

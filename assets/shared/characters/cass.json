@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [58, -12],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "cass left"
+		},
+		{
+			"offsets": [-60, -20],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "cass down"
+		},
+		{
+			"offsets": [23, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "cass up"
+		},
+		{
+			"offsets": [-17, 12],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "cass righ"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "cass i"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/cass",
+	"position": [-40, 50],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [255, 255, 255],
+	"camera_position": [-120, 70],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

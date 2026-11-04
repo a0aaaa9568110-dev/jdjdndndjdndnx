@@ -71,14 +71,13 @@ class MainMenuState extends MusicBeatState
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		magenta = new FlxSprite(-80).loadGraphic(Paths.image('blank'));
 		magenta.antialiasing = ClientPrefs.data.antialiasing;
 		magenta.scrollFactor.set(0, yScroll);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
-		magenta.color = 0xFFfd719b;
 		add(magenta);
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
@@ -101,6 +100,10 @@ class MainMenuState extends MusicBeatState
 			rightItem = createMenuItem(rightOption, FlxG.width - 60, 490);
 			rightItem.x -= rightItem.width;
 		}
+
+		// Slide the menu items in when the state opens
+		for (num => item in menuItems.members)
+			slideIn(item, num < optionShit.length, num * 0.08); // main items come from the left, side buttons from the right
 
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
@@ -147,6 +150,19 @@ class MainMenuState extends MusicBeatState
 		menuItem.scrollFactor.set();
 		menuItems.add(menuItem);
 		return menuItem;
+	}
+
+	function slideIn(item:FlxSprite, fromLeft:Bool, delay:Float = 0)
+	{
+		var targetX:Float = item.x;
+		item.x = fromLeft ? -item.width - 20 : FlxG.width + 20; // Start just off-screen
+		FlxTween.tween(item, {x: targetX}, 0.6, {ease: FlxEase.expoOut, startDelay: delay});
+	}
+
+	function slideOut(item:FlxSprite, toLeft:Bool, delay:Float = 0)
+	{
+		var targetX:Float = toLeft ? -item.width - 20 : FlxG.width + 20; // Fully off-screen
+		FlxTween.tween(item, {x: targetX}, 0.5, {ease: FlxEase.expoIn, startDelay: delay});
 	}
 
 	var selectedSomethin:Bool = false;
@@ -358,12 +374,12 @@ class MainMenuState extends MusicBeatState
 					}
 				});
 				
-				for (memb in menuItems)
+				for (num => memb in menuItems.members)
 				{
 					if(memb == item)
 						continue;
 
-					FlxTween.tween(memb, {alpha: 0}, 0.4, {ease: FlxEase.quadOut});
+					slideOut(memb, num < optionShit.length, (num * 0.04));
 				}
 			}
 			#if desktop

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cory.png">
+	<!-- Created with Adobe Animate version 24.0.9.74 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cory down0000" x="0" y="0" width="382" height="462" frameX="0" frameY="-16" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0001" x="382" y="0" width="381" height="462" frameX="0" frameY="-16" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0002" x="763" y="0" width="365" height="479" frameX="-8" frameY="0" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0003" x="1128" y="0" width="365" height="479" frameX="-8" frameY="0" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0004" x="763" y="0" width="365" height="479" frameX="-8" frameY="0" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0005" x="1128" y="0" width="365" height="479" frameX="-8" frameY="0" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0006" x="763" y="0" width="365" height="479" frameX="-8" frameY="0" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory down0007" x="1128" y="0" width="365" height="479" frameX="-8" frameY="0" frameWidth="382" frameHeight="479"/>
+	<SubTexture name="cory haha0000" x="1493" y="0" width="722" height="1375"/>
+	<SubTexture name="cory idle0000" x="2215" y="0" width="333" height="567" frameX="0" frameY="-13" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0001" x="2548" y="0" width="333" height="567" frameX="0" frameY="-13" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0002" x="2881" y="0" width="332" height="568" frameX="-3" frameY="-11" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0003" x="3213" y="0" width="332" height="568" frameX="-3" frameY="-11" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0004" x="3545" y="0" width="321" height="576" frameX="-6" frameY="-3" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0005" x="0" y="1375" width="321" height="576" frameX="-6" frameY="-3" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0006" x="321" y="1375" width="321" height="579" frameX="-6" frameY="0" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0007" x="642" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0008" x="963" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0009" x="1284" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0010" x="963" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0011" x="1284" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0012" x="963" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory idle0013" x="1284" y="1375" width="321" height="578" frameX="-6" frameY="-1" frameWidth="335" frameHeight="580"/>
+	<SubTexture name="cory left0000" x="1605" y="1375" width="415" height="556" frameX="0" frameY="0" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0001" x="1605" y="1375" width="415" height="556" frameX="0" frameY="0" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0002" x="2020" y="1375" width="391" height="552" frameX="-30" frameY="-7" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0003" x="2020" y="1375" width="391" height="552" frameX="-30" frameY="-7" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0004" x="2020" y="1375" width="391" height="552" frameX="-30" frameY="-7" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0005" x="2020" y="1375" width="391" height="552" frameX="-30" frameY="-7" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0006" x="2020" y="1375" width="391" height="552" frameX="-30" frameY="-7" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory left0007" x="2020" y="1375" width="391" height="552" frameX="-30" frameY="-7" frameWidth="421" frameHeight="559"/>
+	<SubTexture name="cory right0000" x="2411" y="1375" width="545" height="532" frameX="-9" frameY="-3" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0001" x="2411" y="1375" width="545" height="532" frameX="-9" frameY="-3" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0002" x="2956" y="1375" width="515" height="535" frameX="-1" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0003" x="3471" y="1375" width="514" height="535" frameX="0" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0004" x="2956" y="1375" width="515" height="535" frameX="-1" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0005" x="3471" y="1375" width="514" height="535" frameX="0" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0006" x="2956" y="1375" width="515" height="535" frameX="-1" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0007" x="3471" y="1375" width="514" height="535" frameX="0" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0008" x="2956" y="1375" width="515" height="535" frameX="-1" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory right0009" x="3471" y="1375" width="514" height="535" frameX="0" frameY="0" frameWidth="554" frameHeight="535"/>
+	<SubTexture name="cory up0000" x="0" y="1954" width="398" height="749" frameX="-6" frameY="0" frameWidth="411" frameHeight="750"/>
+	<SubTexture name="cory up0001" x="0" y="1954" width="398" height="749" frameX="-6" frameY="0" frameWidth="411" frameHeight="750"/>
+	<SubTexture name="cory up0002" x="398" y="1954" width="411" height="728" frameX="0" frameY="-22" frameWidth="411" frameHeight="750"/>
+	<SubTexture name="cory up0003" x="398" y="1954" width="411" height="728" frameX="0" frameY="-22" frameWidth="411" frameHeight="750"/>
+	<SubTexture name="cory up0004" x="398" y="1954" width="411" height="728" frameX="0" frameY="-22" frameWidth="411" frameHeight="750"/>
+	<SubTexture name="cory up0005" x="398" y="1954" width="411" height="728" frameX="0" frameY="-22" frameWidth="411" frameHeight="750"/>
+	<SubTexture name="cory up0006" x="398" y="1954" width="411" height="728" frameX="0" frameY="-22" frameWidth="411" frameHeight="750"/>
+</TextureAtlas>

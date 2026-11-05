@@ -1,0 +1,69 @@
+{
+	"objects": [
+		{
+			"x": -717,
+			"y": -485,
+			"scale": [
+				5,
+				5
+			],
+			"image": "stages/PICOSCHOOL2/School_Pico2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_opponent": [
+		0,
+		0
+	],
+	"girlfriend": [
+		331,
+		68
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "dad"
+	},
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"boyfriend": [
+		770,
+		100
+	],
+	"opponent": [
+		100,
+		100
+	],
+	"hide_girlfriend": false,
+	"directory": "",
+	"camera_speed": 1,
+	"defaultZoom": 0.6,
+	"stageUI": "normal",
+	"camera_boyfriend": [
+		0,
+		0
+	]
+}

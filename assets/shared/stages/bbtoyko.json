@@ -1,0 +1,135 @@
+{
+	"camera_boyfriend": [
+		0,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "ritz",
+		"gf": "gf",
+		"dad": "gack"
+	},
+	"girlfriend": [
+		400,
+		130
+	],
+	"stageUI": "normal",
+	"boyfriend": [
+		812,
+		274
+	],
+	"defaultZoom": 0.45,
+	"objects": [
+		{
+			"x": -856,
+			"y": -617,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/baconburger/tokyo/skytokyo",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sky",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1.35,
+				1
+			],
+			"alpha": 0.9,
+			"type": "sprite"
+		},
+		{
+			"x": -969,
+			"y": -620,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/baconburger/tokyo/bgforeground",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "foreground",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": -1005,
+			"y": 653,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/baconburger/tokyo/fgstuff",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "fg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.8,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -996,
+			"y": -602,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/baconburger/tokyo/overlay",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"opponent": [
+		128,
+		251
+	],
+	"directory": "",
+	"camera_speed": 0.8,
+	"hide_girlfriend": true,
+	"camera_opponent": [
+		50,
+		0
+	]
+}

@@ -1,0 +1,157 @@
+{
+	"objects": [
+		{
+			"x": -906,
+			"y": -711,
+			"scale": [
+				1.1,
+				1.1
+			],
+			"image": "stages/random/killshot/sunset",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sunset",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.6,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -728,
+			"y": -601,
+			"scale": [
+				1.1,
+				1.1
+			],
+			"image": "stages/random/killshot/dacity",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "city",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.75,
+				0.7
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -697,
+			"y": -611,
+			"scale": [
+				1.1,
+				1.1
+			],
+			"image": "stages/random/killshot/deadend",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "foreground",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -706,
+			"y": -498,
+			"scale": [
+				1.1,
+				1.1
+			],
+			"image": "stages/random/killshot/signs",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "signs",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1.25,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": -653,
+			"y": -659,
+			"scale": [
+				1.1,
+				1.1
+			],
+			"image": "stages/random/killshot/overlay",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_opponent": [
+		0,
+		0
+	],
+	"girlfriend": [
+		580,
+		90
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "dad"
+	},
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"boyfriend": [
+		1092,
+		88
+	],
+	"opponent": [
+		416,
+		88
+	],
+	"hide_girlfriend": false,
+	"directory": "",
+	"camera_speed": 1,
+	"defaultZoom": 0.5,
+	"stageUI": "normal",
+	"camera_boyfriend": [
+		-150,
+		0
+	]
+}

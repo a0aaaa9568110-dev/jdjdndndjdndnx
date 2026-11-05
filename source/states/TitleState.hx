@@ -527,9 +527,10 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					createCoolText(['BUILD by'], 40);
+					createCoolText(['Psych Engine by'], 40);
 				case 4:
-					addMoreText('JACOBNYX', 40);
+					addMoreText('Shadow Mario', 40);
+					addMoreText('Riveren', 40);
 				case 5:
 					deleteCoolText();
 				case 6:
@@ -547,16 +548,30 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('JACOB');
+					addMoreText('Friday');
 				case 15:
-					addMoreText('BUILD');
+					addMoreText('Night');
 				case 16:
-					addMoreText('LMAO'); // credTextShit.text += '\nFunkin';
+					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
 			}
 		}
+	}
+
+	var logoTween:FlxTween = null;
+	function slideLogoIn():Void
+	{
+		if(logoBl == null) return;
+
+		// logoPosition holds the placement from the JSON, so slide up from below the screen to it
+		if(logoTween != null) logoTween.cancel();
+		logoBl.y = FlxG.height;
+		logoTween = FlxTween.tween(logoBl, {y: logoPosition.y}, 1.4, {
+			ease: FlxEase.expoOut,
+			onComplete: function(twn:FlxTween) { logoTween = null; }
+		});
 	}
 
 	var skippedIntro:Bool = false;
@@ -588,6 +603,7 @@ class TitleState extends MusicBeatState
 					default: //Go back to normal ugly ass boring GF
 						remove(ngSpr);
 						remove(credGroup);
+						slideLogoIn();
 						FlxG.camera.flash(FlxColor.WHITE, 2);
 						skippedIntro = true;
 
@@ -603,6 +619,7 @@ class TitleState extends MusicBeatState
 					{
 						remove(ngSpr);
 						remove(credGroup);
+						slideLogoIn();
 						FlxG.camera.flash(FlxColor.WHITE, 0.6);
 						transitioning = false;
 					});
@@ -611,6 +628,7 @@ class TitleState extends MusicBeatState
 				{
 					remove(ngSpr);
 					remove(credGroup);
+					slideLogoIn();
 					FlxG.camera.flash(FlxColor.WHITE, 3);
 					sound.onComplete = function() {
 						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
@@ -626,6 +644,7 @@ class TitleState extends MusicBeatState
 			{
 				remove(ngSpr);
 				remove(credGroup);
+				slideLogoIn();
 				FlxG.camera.flash(FlxColor.WHITE, 4);
 
 				var easteregg:String = FlxG.save.data.psychDevsEasterEgg;

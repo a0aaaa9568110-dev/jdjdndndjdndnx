@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "idle",
+			"loop": false,
+			"name": "I"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "L"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "D"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singUP",
+			"loop": false,
+			"name": "U"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "R"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "ALT l"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "ALT d"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "ALT u"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "ALT r"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/ciri",
+	"position": [-470, -220],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [160, 270],
+	"sing_duration": 4,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

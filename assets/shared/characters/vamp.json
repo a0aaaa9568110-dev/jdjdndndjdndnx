@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [60, 10],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Vamp left0"
+		},
+		{
+			"offsets": [-50, -60],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Vamp down0"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "idle",
+			"loop": false,
+			"name": "Vamp i"
+		},
+		{
+			"offsets": [-10, 30],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Vamp up0"
+		},
+		{
+			"offsets": [-90, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Vamp right0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Vamp",
+	"position": [0, 250],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [-70, -20],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

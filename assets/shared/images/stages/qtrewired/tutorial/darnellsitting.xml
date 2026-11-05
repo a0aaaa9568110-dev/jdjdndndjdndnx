@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="darnellsitting.png">
+	<!-- Created with Adobe Animate version 24.0.9.74 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="darnell idle instance 10000" x="0" y="0" width="427" height="478" frameX="-31" frameY="-6" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10001" x="427" y="0" width="427" height="478" frameX="-31" frameY="-6" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10002" x="854" y="0" width="458" height="478" frameX="0" frameY="-6" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10003" x="854" y="0" width="458" height="478" frameX="0" frameY="-6" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10004" x="1312" y="0" width="457" height="478" frameX="-1" frameY="-4" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10005" x="1312" y="0" width="457" height="478" frameX="-1" frameY="-4" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10006" x="0" y="478" width="426" height="459" frameX="-32" frameY="-1" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10007" x="0" y="478" width="426" height="459" frameX="-32" frameY="-1" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10008" x="426" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10009" x="426" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10010" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10011" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10012" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10013" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10014" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10015" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10016" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10017" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10018" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10019" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10020" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10021" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10022" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+	<SubTexture name="darnell idle instance 10023" x="851" y="478" width="425" height="459" frameX="-32" frameY="0" frameWidth="458" frameHeight="484"/>
+</TextureAtlas>

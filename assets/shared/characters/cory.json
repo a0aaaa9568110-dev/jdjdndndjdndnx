@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [154, -20],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "cory l"
+		},
+		{
+			"offsets": [39, -110],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "cory down"
+		},
+		{
+			"offsets": [30, 171],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "cory up"
+		},
+		{
+			"offsets": [-46, -44],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "cory right"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "cory idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/cory",
+	"position": [60, 190],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [-110, 110],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

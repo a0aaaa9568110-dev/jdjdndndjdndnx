@@ -1,0 +1,113 @@
+{
+	"objects": [
+		{
+			"x": -1078,
+			"y": -585,
+			"scale": [
+				1.2,
+				1.2
+			],
+			"image": "stages/baconburger/mantik/bgman",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": -352,
+			"y": -838,
+			"scale": [
+				1.2,
+				1.2
+			],
+			"image": "stages/baconburger/mantik/manlight",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "light",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1324,
+			"y": -797,
+			"scale": [
+				1.2,
+				1.2
+			],
+			"image": "stages/baconburger/mantik/overlayman",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_opponent": [
+		0,
+		-50
+	],
+	"girlfriend": [
+		296,
+		-189
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "newqt"
+	},
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"boyfriend": [
+		770,
+		100
+	],
+	"opponent": [
+		100,
+		100
+	],
+	"hide_girlfriend": true,
+	"directory": "",
+	"camera_speed": 1.4,
+	"defaultZoom": 0.7,
+	"stageUI": "normal",
+	"camera_boyfriend": [
+		0,
+		-50
+	]
+}

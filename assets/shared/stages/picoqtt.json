@@ -1,0 +1,113 @@
+{
+	"objects": [
+		{
+			"x": -300,
+			"y": -410,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/qtrewired/tutorial/sky",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sky",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.8,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -256,
+			"y": -152,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/qtrewired/tutorial/bg",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bg",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": -209,
+			"y": 632,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/qtrewired/tutorial/fg bricks",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "fgstuff",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1.1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_opponent": [
+		150,
+		0
+	],
+	"girlfriend": [
+		653,
+		131
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "krinqle"
+	},
+	"camera_girlfriend": [
+		0,
+		-50
+	],
+	"boyfriend": [
+		770,
+		100
+	],
+	"opponent": [
+		196,
+		89
+	],
+	"hide_girlfriend": false,
+	"directory": "",
+	"camera_speed": 1,
+	"defaultZoom": 0.8,
+	"stageUI": "normal",
+	"camera_boyfriend": [
+		0,
+		0
+	]
+}

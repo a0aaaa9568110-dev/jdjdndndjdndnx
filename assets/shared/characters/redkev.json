@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"anim": "singDOWN",
+			"name": "down",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				70,
+				-95
+			]
+		},
+		{
+			"anim": "idle",
+			"name": "kidle",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				1,
+				0
+			]
+		},
+		{
+			"anim": "singLEFT",
+			"name": "left",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				120,
+				-10
+			]
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "right",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				-23,
+				-9
+			]
+		},
+		{
+			"anim": "singUP",
+			"name": "up",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				41
+			]
+		}
+	],
+	"image": "characters/redkev",
+	"scale": 1,
+	"sing_duration": 4,
+	"healthicon": "no",
+	"position": [
+		0,
+		140
+	],
+	"camera_position": [
+		-30,
+		-30
+	],
+	"flip_x": false,
+	"no_antialiasing": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"vocals_file": "",
+	"_editor_isPlayer": false
+}

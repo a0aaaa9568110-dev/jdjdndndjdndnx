@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"anim": "singDOWN",
+			"name": "down",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				20,
+				-10
+			]
+		},
+		{
+			"anim": "idle",
+			"name": "idle",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"anim": "singLEFT",
+			"name": "left",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				110,
+				30
+			]
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "right",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				-53,
+				-6
+			]
+		},
+		{
+			"anim": "singUP",
+			"name": "up",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				30
+			]
+		}
+	],
+	"image": "characters/liz",
+	"scale": 1,
+	"sing_duration": 4,
+	"healthicon": "no",
+	"position": [
+		0,
+		240
+	],
+	"camera_position": [
+		-20,
+		-20
+	],
+	"flip_x": true,
+	"no_antialiasing": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"vocals_file": "",
+	"_editor_isPlayer": true
+}

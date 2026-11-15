@@ -117,10 +117,18 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
 
+		// Slide the info texts in from the right edge of the screen
+		var levelInfoX:Float = levelInfo.x;
+		var levelDifficultyX:Float = levelDifficulty.x;
+		var blueballedX:Float = blueballedTxt.x;
+		levelInfo.x = FlxG.width + 40;
+		levelDifficulty.x = FlxG.width + 40;
+		blueballedTxt.x = FlxG.width + 40;
+
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
-		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
-		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
-		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
+		FlxTween.tween(levelInfo, {alpha: 1, y: 20, x: levelInfoX}, 0.6, {ease: FlxEase.quartOut, startDelay: 0.3});
+		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5, x: levelDifficultyX}, 0.6, {ease: FlxEase.quartOut, startDelay: 0.45});
+		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5, x: blueballedX}, 0.6, {ease: FlxEase.quartOut, startDelay: 0.6});
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
 		add(grpMenuShit);
@@ -402,6 +410,7 @@ class PauseSubState extends MusicBeatSubstate
 			var item = new Alphabet(90, 320, Language.getPhrase('pause_$str', str), true);
 			item.isMenuItem = true;
 			item.targetY = num;
+			item.x = -item.width - (num * 80); // starts off-screen; Alphabet's menu lerp slides it in smoothly, staggered per item
 			grpMenuShit.add(item);
 
 			if(str == 'Skip Time')

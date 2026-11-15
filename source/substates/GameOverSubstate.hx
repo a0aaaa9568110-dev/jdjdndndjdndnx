@@ -6,6 +6,10 @@ import objects.Character;
 import flixel.FlxObject;
 import flixel.FlxSubState;
 import flixel.math.FlxPoint;
+import flixel.FlxCamera;
+import flixel.text.FlxText;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
 
 import states.StoryMenuState;
 import states.FreeplayState;
@@ -71,6 +75,13 @@ class GameOverSubstate extends MusicBeatSubstate
 		add(boyfriend);
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
+		//brutal damage hit: hard red flash + heavy screen shake + a second pulse right after
+		FlxG.camera.flash(FlxColor.RED, 0.3);
+		FlxG.camera.shake(0.04, 0.6);
+		new FlxTimer().start(0.3, function(tmr:FlxTimer)
+		{
+			FlxG.camera.flash(FlxColor.fromRGB(255, 0, 0, 255), 1.5, null, true);
+		});
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 
@@ -128,6 +139,22 @@ class GameOverSubstate extends MusicBeatSubstate
 				neneKnife.animation.play('anim', true);
 			}
 		}
+
+		//encouragement text lives on its own camera so the zoom/shake doesn't move it
+		textCam = new FlxCamera();
+		textCam.bgColor = FlxColor.TRANSPARENT;
+		FlxG.cameras.add(textCam, false);
+
+		encourageText = new FlxText(0, FlxG.height - 110, FlxG.width, "", 32);
+		encourageText.setFormat(Paths.font('vcr.ttf'), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		encourageText.borderSize = 2;
+		encourageText.scrollFactor.set();
+		encourageText.alpha = 0;
+		encourageText.cameras = [textCam];
+		add(encourageText);
+
+		messageIndex = FlxG.random.int(0, messages.length - 1);
+		showNextMessage(0.8);
 
 		super.create();
 	}
@@ -204,6 +231,34 @@ class GameOverSubstate extends MusicBeatSubstate
 		PlayState.instance.callOnScripts('onUpdatePost', [elapsed]);
 	}
 
+	var textCam:FlxCamera;
+	var encourageText:FlxText;
+	var messageIndex:Int = 0;
+	var messages:Array<String> = [
+		"Keep trying! You can do better!",
+		"Don't give up! You've got this!",
+		"So close! You can do better!",
+		"Shake it off and try again!"
+	];
+
+	//fades a message in for 1 second, holds, fades it out, then moves on to the next one
+	function showNextMessage(?delay:Float = 0):Void
+	{
+		if(isEnding || encourageText == null) return;
+
+		encourageText.text = messages[messageIndex];
+		messageIndex = (messageIndex + 1) % messages.length;
+		encourageText.alpha = 0;
+
+		FlxTween.tween(encourageText, {alpha: 1}, 1, {startDelay: delay, onComplete: function(_)
+		{
+			FlxTween.tween(encourageText, {alpha: 0}, 0.5, {startDelay: 1, onComplete: function(_)
+			{
+				showNextMessage(0.4);
+			}});
+		}});
+	}
+
 	var isEnding:Bool = false;
 	function coolStartDeath(?volume:Float = 1):Void
 	{
@@ -216,6 +271,12 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (!isEnding)
 		{
 			isEnding = true;
+			FlxTween.cancelTweensOf(encourageText);
+			encourageText.alpha = 0;
+
+			//camera zooms out a bit when you retry
+			FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom * 0.85}, 2.5, {ease: FlxEase.quartOut});
+
 			if(boyfriend.hasAnimation('deathConfirm'))
 				boyfriend.playAnim('deathConfirm', true);
 			else if(boyfriend.hasAnimation('deathLoop'))
@@ -243,6 +304,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	override function destroy()
 	{
 		instance = null;
+		if(textCam != null) FlxG.cameras.remove(textCam);
 		super.destroy();
 	}
 }

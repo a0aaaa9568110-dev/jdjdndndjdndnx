@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="randomassgirl.png">
+	<!-- Created with Adobe Animate version 24.0.9.74 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceleftbeat0000" x="0" y="0" width="700" height="678" frameX="0" frameY="-4" frameWidth="700" frameHeight="682"/>
+	<SubTexture name="danceleftbeat0001" x="0" y="0" width="700" height="678" frameX="0" frameY="-4" frameWidth="700" frameHeight="682"/>
+	<SubTexture name="danceleftbeat0002" x="700" y="0" width="700" height="676" frameX="0" frameY="-6" frameWidth="700" frameHeight="682"/>
+	<SubTexture name="danceleftbeat0003" x="700" y="0" width="700" height="676" frameX="0" frameY="-6" frameWidth="700" frameHeight="682"/>
+	<SubTexture name="danceleftbeat0004" x="1400" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0005" x="1400" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0006" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0007" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0008" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0009" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0010" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0011" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0012" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0013" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="danceleftbeat0014" x="2100" y="0" width="700" height="682"/>
+	<SubTexture name="dancerightbeat0000" x="2800" y="0" width="704" height="682"/>
+	<SubTexture name="dancerightbeat0001" x="2800" y="0" width="704" height="682"/>
+	<SubTexture name="dancerightbeat0002" x="0" y="682" width="700" height="681" frameX="-2" frameY="-1" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0003" x="700" y="682" width="700" height="681" frameX="-2" frameY="-1" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0004" x="1400" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0005" x="1400" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0006" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0007" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0008" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0009" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0010" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0011" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0012" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0013" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+	<SubTexture name="dancerightbeat0014" x="2100" y="682" width="700" height="682" frameX="-2" frameY="0" frameWidth="704" frameHeight="682"/>
+</TextureAtlas>

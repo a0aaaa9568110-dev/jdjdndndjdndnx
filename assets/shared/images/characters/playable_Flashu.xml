@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="playable_Flashu.png">
+	<!-- Created with Adobe Animate version 24.0.9.74 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="feft p0000" x="0" y="0" width="521" height="722" frameX="0" frameY="-7" frameWidth="541" frameHeight="729"/>
+	<SubTexture name="feft p0001" x="0" y="0" width="521" height="722" frameX="0" frameY="-7" frameWidth="541" frameHeight="729"/>
+	<SubTexture name="feft p0002" x="521" y="0" width="521" height="729" frameX="-20" frameY="0" frameWidth="541" frameHeight="729"/>
+	<SubTexture name="feft p0003" x="521" y="0" width="521" height="729" frameX="-20" frameY="0" frameWidth="541" frameHeight="729"/>
+	<SubTexture name="feft p0004" x="521" y="0" width="521" height="729" frameX="-20" frameY="0" frameWidth="541" frameHeight="729"/>
+	<SubTexture name="feft p miss0000" x="0" y="0" width="521" height="722" frameX="0" frameY="0" frameWidth="541" frameHeight="729"/>
+	<SubTexture name="feft p miss0001" x="1042" y="0" width="512" height="713" frameX="-24" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0002" x="1042" y="0" width="512" height="713" frameX="-24" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0003" x="1554" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0004" x="1554" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0005" x="2066" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0006" x="2066" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0007" x="1554" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0008" x="1554" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="feft p miss0009" x="2066" y="0" width="512" height="713" frameX="-19" frameY="-11" frameWidth="536" frameHeight="724"/>
+	<SubTexture name="fight p0000" x="2578" y="0" width="427" height="722" frameX="-2" frameY="-5" frameWidth="429" frameHeight="727"/>
+	<SubTexture name="fight p0001" x="2578" y="0" width="427" height="722" frameX="-2" frameY="-5" frameWidth="429" frameHeight="727"/>
+	<SubTexture name="fight p0002" x="3005" y="0" width="422" height="727" frameX="0" frameY="0" frameWidth="429" frameHeight="727"/>
+	<SubTexture name="fight p0003" x="3005" y="0" width="422" height="727" frameX="0" frameY="0" frameWidth="429" frameHeight="727"/>
+	<SubTexture name="fight p0004" x="3005" y="0" width="422" height="727" frameX="0" frameY="0" frameWidth="429" frameHeight="727"/>
+	<SubTexture name="fight p miss0000" x="2578" y="0" width="427" height="722" frameX="-1" frameY="-15" frameWidth="429" frameHeight="727"/>
+	<SubTexture name="fight p miss0001" x="3427" y="0" width="423" height="715" frameX="0" frameY="-22" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0002" x="3427" y="0" width="423" height="715" frameX="0" frameY="-22" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0003" x="0" y="729" width="427" height="715" frameX="-1" frameY="-22" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0004" x="0" y="729" width="427" height="715" frameX="-1" frameY="-22" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0005" x="427" y="729" width="427" height="737" frameX="-1" frameY="0" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0006" x="427" y="729" width="427" height="737" frameX="-1" frameY="0" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0007" x="0" y="729" width="427" height="715" frameX="-1" frameY="-22" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0008" x="0" y="729" width="427" height="715" frameX="-1" frameY="-22" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="fight p miss0009" x="427" y="729" width="427" height="737" frameX="-1" frameY="0" frameWidth="428" frameHeight="737"/>
+	<SubTexture name="flashu idle p0000" x="854" y="729" width="400" height="716" frameX="-11" frameY="-15" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0001" x="854" y="729" width="400" height="716" frameX="-11" frameY="-15" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0002" x="1254" y="729" width="404" height="720" frameX="-8" frameY="-11" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0003" x="1254" y="729" width="404" height="720" frameX="-8" frameY="-11" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0004" x="1658" y="729" width="412" height="727" frameX="0" frameY="-4" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0005" x="1658" y="729" width="412" height="727" frameX="0" frameY="-4" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0006" x="2070" y="729" width="403" height="730" frameX="-9" frameY="-1" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0007" x="2070" y="729" width="403" height="730" frameX="-9" frameY="-1" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0008" x="2473" y="729" width="401" height="731" frameX="-11" frameY="0" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0009" x="2473" y="729" width="401" height="731" frameX="-11" frameY="0" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0010" x="2473" y="729" width="401" height="731" frameX="-11" frameY="0" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0011" x="2473" y="729" width="401" height="731" frameX="-11" frameY="0" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0012" x="2473" y="729" width="401" height="731" frameX="-11" frameY="0" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="flashu idle p0013" x="2473" y="729" width="401" height="731" frameX="-11" frameY="0" frameWidth="412" frameHeight="731"/>
+	<SubTexture name="fown p0000" x="2874" y="729" width="419" height="585" frameX="0" frameY="-22" frameWidth="421" frameHeight="607"/>
+	<SubTexture name="fown p0001" x="2874" y="729" width="419" height="585" frameX="0" frameY="-22" frameWidth="421" frameHeight="607"/>
+	<SubTexture name="fown p0002" x="3293" y="729" width="418" height="604" frameX="-3" frameY="0" frameWidth="421" frameHeight="607"/>
+	<SubTexture name="fown p0003" x="3293" y="729" width="418" height="604" frameX="-3" frameY="0" frameWidth="421" frameHeight="607"/>
+	<SubTexture name="fown p0004" x="3293" y="729" width="418" height="604" frameX="-3" frameY="0" frameWidth="421" frameHeight="607"/>
+	<SubTexture name="fown p miss0000" x="0" y="1466" width="446" height="621" frameX="0" frameY="-8" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0001" x="446" y="1466" width="448" height="626" frameX="-3" frameY="0" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0002" x="446" y="1466" width="448" height="626" frameX="-3" frameY="0" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0003" x="894" y="1466" width="454" height="620" frameX="0" frameY="-6" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0004" x="894" y="1466" width="454" height="620" frameX="0" frameY="-6" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0005" x="1348" y="1466" width="454" height="623" frameX="0" frameY="-3" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0006" x="1348" y="1466" width="454" height="623" frameX="0" frameY="-3" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0007" x="894" y="1466" width="454" height="620" frameX="0" frameY="-6" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0008" x="894" y="1466" width="454" height="620" frameX="0" frameY="-6" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fown p miss0009" x="1348" y="1466" width="454" height="623" frameX="0" frameY="-3" frameWidth="454" frameHeight="629"/>
+	<SubTexture name="fup p0000" x="1802" y="1466" width="412" height="781" frameX="-13" frameY="0" frameWidth="425" frameHeight="784"/>
+	<SubTexture name="fup p0001" x="1802" y="1466" width="412" height="781" frameX="-13" frameY="0" frameWidth="425" frameHeight="784"/>
+	<SubTexture name="fup p0002" x="2214" y="1466" width="424" height="772" frameX="0" frameY="-12" frameWidth="425" frameHeight="784"/>
+	<SubTexture name="fup p0003" x="2214" y="1466" width="424" height="772" frameX="0" frameY="-12" frameWidth="425" frameHeight="784"/>
+	<SubTexture name="fup p0004" x="2214" y="1466" width="424" height="772" frameX="0" frameY="-12" frameWidth="425" frameHeight="784"/>
+	<SubTexture name="fup p miss0000" x="1802" y="1466" width="412" height="781" frameX="-21" frameY="0" frameWidth="425" frameHeight="784"/>
+	<SubTexture name="fup p miss0001" x="2638" y="1466" width="434" height="737" frameX="0" frameY="-45" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0002" x="2638" y="1466" width="434" height="737" frameX="0" frameY="-45" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0003" x="3072" y="1466" width="424" height="747" frameX="-5" frameY="-35" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0004" x="3072" y="1466" width="424" height="747" frameX="-5" frameY="-35" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0005" x="3496" y="1466" width="424" height="745" frameX="-5" frameY="-37" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0006" x="3496" y="1466" width="424" height="745" frameX="-5" frameY="-37" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0007" x="3072" y="1466" width="424" height="747" frameX="-5" frameY="-35" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0008" x="3072" y="1466" width="424" height="747" frameX="-5" frameY="-35" frameWidth="434" frameHeight="782"/>
+	<SubTexture name="fup p miss0009" x="3496" y="1466" width="424" height="745" frameX="-5" frameY="-37" frameWidth="434" frameHeight="782"/>
+</TextureAtlas>

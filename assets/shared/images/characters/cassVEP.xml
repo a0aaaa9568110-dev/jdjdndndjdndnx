@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cassandra.png">
+	<!-- Created with Adobe Flash Professional version 15.0.1.179 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="cassandra down0000" x="10" y="10" width="1340" height="1100"/>
+	<SubTexture name="cassandra down0001" x="10" y="10" width="1340" height="1100"/>
+	<SubTexture name="cassandra down0002" x="1360" y="10" width="1340" height="1100"/>
+	<SubTexture name="cassandra down0003" x="1360" y="10" width="1340" height="1100"/>
+	<SubTexture name="cassandra downmiss0000" x="10" y="10" width="1340" height="1100" frameX="0" frameY="-16" frameWidth="1340" frameHeight="1100"/>
+	<SubTexture name="cassandra downmiss0001" x="2710" y="10" width="1316" height="1116" frameX="-14" frameY="0" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0002" x="2710" y="10" width="1316" height="1116" frameX="-14" frameY="0" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0003" x="4036" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0004" x="4036" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0005" x="5386" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0006" x="5386" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0007" x="4036" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0008" x="4036" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0009" x="5386" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0010" x="5386" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0011" x="4036" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0012" x="4036" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0013" x="5386" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra downmiss0014" x="5386" y="10" width="1340" height="1100" frameX="-2" frameY="-16" frameWidth="1342" frameHeight="1116"/>
+	<SubTexture name="cassandra eugh0000" x="6736" y="10" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0001" x="6736" y="10" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0002" x="10" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0003" x="10" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0004" x="1360" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0005" x="1360" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0006" x="2710" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0007" x="2710" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0008" x="2710" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0009" x="2710" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0010" x="2710" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra eugh0011" x="2710" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0000" x="4060" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0001" x="4060" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0002" x="5410" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0003" x="5410" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0004" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0005" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0006" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0007" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0008" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0009" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0010" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra grrr0011" x="6760" y="1136" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0000" x="10" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0001" x="10" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0002" x="1360" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0003" x="1360" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0004" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0005" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0006" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0007" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0008" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0009" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra huh0010" x="2710" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0000" x="4060" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0001" x="4060" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0002" x="5410" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0003" x="5410" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0004" x="6760" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0005" x="6760" y="2246" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0006" x="10" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0007" x="10" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0008" x="1360" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0009" x="1360" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0010" x="2710" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0011" x="2710" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0012" x="4060" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra idle0013" x="4060" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra left0000" x="5410" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra left0001" x="5410" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra left0002" x="6760" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra left0003" x="6760" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra leftmiss0000" x="5410" y="3356" width="1340" height="1100"/>
+	<SubTexture name="cassandra leftmiss0001" x="10" y="4466" width="1354" height="1100"/>
+	<SubTexture name="cassandra leftmiss0002" x="10" y="4466" width="1354" height="1100"/>
+	<SubTexture name="cassandra leftmiss0003" x="1374" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0004" x="1374" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0005" x="2724" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0006" x="2724" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0007" x="1374" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0008" x="1374" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0009" x="2724" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0010" x="2724" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0011" x="1374" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0012" x="1374" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0013" x="2724" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra leftmiss0014" x="2724" y="4466" width="1340" height="1100" frameX="0" frameY="0" frameWidth="1354" frameHeight="1100"/>
+	<SubTexture name="cassandra right0000" x="4074" y="4466" width="1340" height="1100"/>
+	<SubTexture name="cassandra right0001" x="4074" y="4466" width="1340" height="1100"/>
+	<SubTexture name="cassandra right0002" x="5424" y="4466" width="1340" height="1100"/>
+	<SubTexture name="cassandra right0003" x="5424" y="4466" width="1340" height="1100"/>
+	<SubTexture name="cassandra rightmiss0000" x="4074" y="4466" width="1340" height="1100" frameX="-10" frameY="-2" frameWidth="1340" frameHeight="1100"/>
+	<SubTexture name="cassandra rightmiss0001" x="6774" y="4466" width="1352" height="1100" frameX="0" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0002" x="6774" y="4466" width="1352" height="1100" frameX="0" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0003" x="10" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0004" x="10" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0005" x="1360" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0006" x="1360" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0007" x="10" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0008" x="10" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0009" x="1360" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0010" x="1360" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0011" x="10" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0012" x="10" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0013" x="1360" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra rightmiss0014" x="1360" y="5576" width="1340" height="1100" frameX="-12" frameY="0" frameWidth="1352" frameHeight="1102"/>
+	<SubTexture name="cassandra up0000" x="2710" y="5576" width="1340" height="1100"/>
+	<SubTexture name="cassandra up0001" x="2710" y="5576" width="1340" height="1100"/>
+	<SubTexture name="cassandra up0002" x="4060" y="5576" width="1340" height="1100"/>
+	<SubTexture name="cassandra up0003" x="4060" y="5576" width="1340" height="1100"/>
+	<SubTexture name="cassandra upmiss0000" x="2710" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1340" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0001" x="5410" y="5576" width="1368" height="1094" frameX="0" frameY="-6" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0002" x="5410" y="5576" width="1368" height="1094" frameX="0" frameY="-6" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0003" x="6788" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0004" x="6788" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0005" x="10" y="6686" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0006" x="10" y="6686" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0007" x="6788" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0008" x="6788" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0009" x="10" y="6686" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0010" x="10" y="6686" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0011" x="6788" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0012" x="6788" y="5576" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0013" x="10" y="6686" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+	<SubTexture name="cassandra upmiss0014" x="10" y="6686" width="1340" height="1100" frameX="-14" frameY="0" frameWidth="1368" frameHeight="1100"/>
+</TextureAtlas>

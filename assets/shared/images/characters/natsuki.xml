@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="natsuki.png"><SubTexture name="natsuki idle0000" x="1481" y="1284" width="402" height="617" frameX="-39" frameY="-94" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0001" x="1582" y="622" width="380" height="618" frameX="-56" frameY="-94" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0002" x="1187" y="655" width="385" height="622" frameX="-61" frameY="-89" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0003" x="0" y="655" width="395" height="629" frameX="-44" frameY="-82" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0004" x="1187" y="0" width="395" height="630" frameX="-42" frameY="-81" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0005" x="1187" y="0" width="395" height="630" frameX="-42" frameY="-81" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0006" x="1187" y="0" width="395" height="630" frameX="-42" frameY="-81" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki idle0007" x="1187" y="0" width="395" height="630" frameX="-42" frameY="-81" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki left0000" x="1582" y="0" width="390" height="622" frameX="-38" frameY="-90" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki left0001" x="395" y="655" width="396" height="625" frameX="-42" frameY="-86" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki left0002" x="791" y="655" width="396" height="625" frameX="-42" frameY="-86" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki left0003" x="791" y="655" width="396" height="625" frameX="-42" frameY="-86" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki down0000" x="0" y="1904" width="403" height="545" frameX="-92" frameY="-166" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki down0001" x="1972" y="0" width="386" height="550" frameX="-106" frameY="-160" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki down0002" x="2358" y="0" width="395" height="550" frameX="-98" frameY="-160" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki down0003" x="2358" y="0" width="395" height="550" frameX="-98" frameY="-160" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki up0000" x="0" y="0" width="405" height="655" frameX="-52" frameY="-54" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki up0001" x="405" y="0" width="386" height="650" frameX="-63" frameY="-60" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki up0002" x="791" y="0" width="396" height="650" frameX="-56" frameY="-60" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki up0003" x="791" y="0" width="396" height="650" frameX="-56" frameY="-60" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki right0000" x="0" y="1284" width="491" height="620" frameX="-50" frameY="-91" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki right0001" x="491" y="1284" width="495" height="620" frameX="-44" frameY="-91" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki right0002" x="986" y="1284" width="495" height="620" frameX="-44" frameY="-91" frameWidth="586" frameHeight="734" />
+<SubTexture name="natsuki right0003" x="986" y="1284" width="495" height="620" frameX="-44" frameY="-91" frameWidth="586" frameHeight="734" />
+</TextureAtlas>

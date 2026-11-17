@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [20, -8],
+			"indices": [],
+			"fps": 16,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Sakuya l"
+		},
+		{
+			"offsets": [0, 10],
+			"indices": [],
+			"fps": 16,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Sakuya u"
+		},
+		{
+			"offsets": [-60, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Sakuya d"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 16,
+			"anim": "idle",
+			"loop": false,
+			"name": "Sakuya i"
+		},
+		{
+			"offsets": [0, 10],
+			"indices": [],
+			"fps": 16,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Sakuya r"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Sakuya",
+	"position": [-120, 60],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [-120, -160],
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

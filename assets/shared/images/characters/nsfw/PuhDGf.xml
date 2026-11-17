@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PuhDGf.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="danceRight0000" x="459" y="0" width="460" height="612" frameX="-441" frameY="-84" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0001" x="459" y="0" width="460" height="612" frameX="-441" frameY="-84" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0002" x="0" y="0" width="459" height="618" frameX="-448" frameY="-78" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0003" x="0" y="0" width="459" height="618" frameX="-448" frameY="-78" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0004" x="0" y="618" width="430" height="629" frameX="-445" frameY="-67" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0005" x="0" y="618" width="430" height="629" frameX="-445" frameY="-67" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0006" x="2199" y="0" width="419" height="634" frameX="-444" frameY="-62" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0007" x="2199" y="0" width="419" height="634" frameX="-444" frameY="-62" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0008" x="0" y="1247" width="425" height="634" frameX="-441" frameY="-62" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0009" x="0" y="1247" width="425" height="634" frameX="-441" frameY="-62" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0010" x="1773" y="0" width="426" height="634" frameX="-439" frameY="-62" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0011" x="1773" y="0" width="426" height="634" frameX="-439" frameY="-62" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceRight0012" x="1346" y="0" width="427" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="sad0000" x="1346" y="0" width="427" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0000" x="2199" y="1267" width="410" height="613" frameX="-430" frameY="-83" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0001" x="2199" y="1267" width="410" height="613" frameX="-430" frameY="-83" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0002" x="1250" y="1247" width="398" height="617" frameX="-431" frameY="-79" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0003" x="1250" y="1247" width="398" height="617" frameX="-431" frameY="-79" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0004" x="430" y="618" width="402" height="625" frameX="-437" frameY="-71" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0005" x="430" y="618" width="402" height="625" frameX="-437" frameY="-71" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0006" x="846" y="1247" width="404" height="631" frameX="-440" frameY="-65" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0007" x="846" y="1247" width="404" height="631" frameX="-440" frameY="-65" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0008" x="2199" y="634" width="417" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0009" x="2199" y="634" width="417" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0010" x="425" y="1247" width="421" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0011" x="425" y="1247" width="421" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0012" x="919" y="0" width="427" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+	<SubTexture name="danceLeft0013" x="919" y="0" width="427" height="633" frameX="-439" frameY="-63" frameWidth="1357" frameHeight="762"/>
+</TextureAtlas>

@@ -343,11 +343,6 @@ class MainMenuState extends MusicBeatState
 						case 'freeplay':
 							MusicBeatState.switchState(new FreeplayState());
 
-							#if debug
-                            case 'devlog':
-	                        MusicBeatState.switchState(new states.DevLogState());
-                            #end
-
 						#if MODS_ALLOWED
 						case 'mods':
 							MusicBeatState.switchState(new ModsMenuState());

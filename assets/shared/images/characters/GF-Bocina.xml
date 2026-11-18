@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF-Bocina.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Idle0000" x="5" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0001" x="721" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0002" x="1437" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0003" x="2153" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0004" x="2869" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0005" x="3585" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0006" x="4301" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0007" x="5017" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0008" x="5733" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0009" x="6449" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0010" x="7165" y="5" width="716" height="739"/>
+	<SubTexture name="GF Idle0011" x="5" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0012" x="721" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0013" x="1437" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0014" x="2153" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0015" x="2869" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0016" x="3585" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0017" x="4301" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0018" x="5017" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0019" x="5733" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0020" x="6449" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0021" x="7165" y="744" width="716" height="739"/>
+	<SubTexture name="GF Idle0022" x="5" y="1483" width="716" height="739"/>
+	<SubTexture name="GF Idle0023" x="721" y="1483" width="716" height="739"/>
+	<SubTexture name="GF Idle0024" x="1437" y="1483" width="716" height="739"/>
+	<SubTexture name="GF Idle0025" x="2153" y="1483" width="716" height="739"/>
+	<SubTexture name="GF Idle0026" x="2869" y="1483" width="716" height="739"/>
+	<SubTexture name="GF Idle0027" x="3585" y="1483" width="716" height="739"/>
+</TextureAtlas>

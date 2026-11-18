@@ -1,14 +1,12 @@
 package backend;
 
-#if debug
 import haxe.Log;
 import openfl.Lib;
 import openfl.events.UncaughtErrorEvent;
-#end
 
 /**
- * Debug-only data store for DevLogState.
- * Everything compiles to nothing in release builds.
+ * Data store for DevLogState.
+ * Always compiled in (debug AND release builds).
  *
  * Call DevLogStore.init() once in Main.hx after the FlxGame is added.
  */
@@ -34,37 +32,28 @@ class DevLogStore
 	/** Called from FunkinLua.luaTrace */
 	public static function addLua(msg:String)
 	{
-		#if debug
 		push(luaErrors, msg, 300);
-		#end
 	}
 
 	/** Log a custom timeline event: DevLogStore.event("boss spawned"); */
 	public static function event(msg:String)
 	{
-		#if debug
 		push(events, msg, 300);
-		#end
 	}
 
 	/** Live watch a value: DevLogStore.watch("health", () -> PlayState.instance.health); */
 	public static function watch(name:String, getter:Void->Dynamic)
 	{
-		#if debug
 		watches.set(name, getter);
-		#end
 	}
 
 	public static function unwatch(name:String)
 	{
-		#if debug
 		watches.remove(name);
-		#end
 	}
 
 	public static function init()
 	{
-		#if debug
 		if (inited) return;
 		inited = true;
 
@@ -98,6 +87,5 @@ class DevLogStore
 		watch("camera zoom", () -> flixel.FlxG.camera.zoom);
 
 		event("DevLogStore started");
-		#end
 	}
 }

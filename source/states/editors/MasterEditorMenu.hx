@@ -11,7 +11,7 @@ class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
 		'Chart Editor',
-		'Dev Log'
+		'Dev Log',
 		'Character Editor',
 		'Stage Editor',
 		'Week Editor',

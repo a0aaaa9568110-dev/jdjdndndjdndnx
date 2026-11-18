@@ -1,6 +1,5 @@
 package states;
 
-#if debug
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.input.keyboard.FlxKey;
@@ -20,7 +19,7 @@ import sys.io.File;
 #end
 
 /**
- * DEV LOG - debug builds only.
+ * DEV LOG - included in all builds (debug and release).
  * Tabs: SYSTEM, PERF, MODS, LOGS, FILES, CACHE, WATCH, CONSOLE
  * Number keys 1-8 or LEFT/RIGHT switch tabs. ESC exits.
  */
@@ -298,7 +297,7 @@ class DevLogState extends MusicBeatState
 			+ "  - Your local time and timezone\n"
 			+ "  - Everything inside your game and mods folders\n\n"
 			+ "Do NOT screenshot, record, stream, or copy/paste it anywhere public without hiding your username first.\n\n"
-			+ "It only exists in debug builds and is never shipped to players.";
+			+ "This screen is part of this build, so anyone running it can open it.";
 		var body = new FlxText(bx + 30, by + 70, boxW - 60, msg, 17);
 		body.setFormat(Paths.font("vcr.ttf"), 17, FlxColor.WHITE, LEFT);
 		gateGroup.add(body);
@@ -1167,4 +1166,3 @@ class DevLogState extends MusicBeatState
 		#end
 	}
 }
-#end

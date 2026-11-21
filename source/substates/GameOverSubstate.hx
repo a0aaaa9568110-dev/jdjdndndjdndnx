@@ -75,13 +75,6 @@ class GameOverSubstate extends MusicBeatSubstate
 		add(boyfriend);
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
-		//brutal damage hit: hard red flash + heavy screen shake + a second pulse right after
-		FlxG.camera.flash(FlxColor.RED, 0.3);
-		FlxG.camera.shake(0.04, 0.6);
-		new FlxTimer().start(0.3, function(tmr:FlxTimer)
-		{
-			FlxG.camera.flash(FlxColor.fromRGB(255, 0, 0, 255), 1.5, null, true);
-		});
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 
@@ -140,21 +133,26 @@ class GameOverSubstate extends MusicBeatSubstate
 			}
 		}
 
-		//encouragement text lives on its own camera so the zoom/shake doesn't move it
-		textCam = new FlxCamera();
-		textCam.bgColor = FlxColor.TRANSPARENT;
-		FlxG.cameras.add(textCam, false);
+		loadMessages();
 
-		encourageText = new FlxText(0, FlxG.height - 110, FlxG.width, "", 32);
-		encourageText.setFormat(Paths.font('vcr.ttf'), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		encourageText.borderSize = 2;
-		encourageText.scrollFactor.set();
-		encourageText.alpha = 0;
-		encourageText.cameras = [textCam];
-		add(encourageText);
+		if(messagesEnabled && messages.length > 0)
+		{
+			//encouragement text lives on its own camera so the zoom/shake doesn't move it
+			textCam = new FlxCamera();
+			textCam.bgColor = FlxColor.TRANSPARENT;
+			FlxG.cameras.add(textCam, false);
 
-		messageIndex = FlxG.random.int(0, messages.length - 1);
-		showNextMessage(0.8);
+			encourageText = new FlxText(0, FlxG.height - 110, FlxG.width, "", 32);
+			encourageText.setFormat(Paths.font('vcr.ttf'), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			encourageText.borderSize = 2;
+			encourageText.scrollFactor.set();
+			encourageText.alpha = 0;
+			encourageText.cameras = [textCam];
+			add(encourageText);
+
+			messageIndex = FlxG.random.int(0, messages.length - 1);
+			showNextMessage(0.8);
+		}
 
 		super.create();
 	}
@@ -234,12 +232,50 @@ class GameOverSubstate extends MusicBeatSubstate
 	var textCam:FlxCamera;
 	var encourageText:FlxText;
 	var messageIndex:Int = 0;
-	var messages:Array<String> = [
-		"Keep trying! You can do better!",
-		"Don't give up! You've got this!",
-		"So close! You can do better!",
-		"Shake it off and try again!"
+	var defaultMessages:Array<String> = [
+		"Hell no, You ain't not losing her.",
+		"You gotta get your girl back.",
+		"Her dad can kiss your ass. You getting her back."
 	];
+
+	var messages:Array<String> = [];
+	var messagesEnabled:Bool = true;
+
+	//reads data/gameOverMessages.json (mods folder first, then assets). Format:
+	//{ "enabled": true, "messages": ["text one", "text two"] }
+	//enabled = false turns the text off. Empty/missing/broken "messages" falls back to the defaults.
+	function loadMessages():Void
+	{
+		messages = defaultMessages.copy();
+		messagesEnabled = true;
+
+		var key:String = 'data/gameOverMessages.json';
+		if(!Paths.fileExists(key, TEXT)) return;
+
+		try
+		{
+			var json:Dynamic = haxe.Json.parse(Paths.getTextFromFile(key));
+			if(json == null) return;
+
+			if(Reflect.hasField(json, 'enabled')) messagesEnabled = (Reflect.field(json, 'enabled') == true);
+
+			if(Reflect.hasField(json, 'messages'))
+			{
+				var raw:Array<Dynamic> = Reflect.field(json, 'messages');
+				var custom:Array<String> = [];
+				for(m in raw)
+				{
+					var str:String = Std.string(m);
+					if(str.trim().length > 0) custom.push(str);
+				}
+				if(custom.length > 0) messages = custom;
+			}
+		}
+		catch(e:Dynamic)
+		{
+			trace('Error loading gameOverMessages.json: ' + e);
+		}
+	}
 
 	//fades a message in for 1 second, holds, fades it out, then moves on to the next one
 	function showNextMessage(?delay:Float = 0):Void
@@ -271,8 +307,11 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (!isEnding)
 		{
 			isEnding = true;
-			FlxTween.cancelTweensOf(encourageText);
-			encourageText.alpha = 0;
+			if(encourageText != null)
+			{
+				FlxTween.cancelTweensOf(encourageText);
+				encourageText.alpha = 0;
+			}
 
 			//camera zooms out a bit when you retry
 			FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom * 0.85}, 2.5, {ease: FlxEase.quartOut});

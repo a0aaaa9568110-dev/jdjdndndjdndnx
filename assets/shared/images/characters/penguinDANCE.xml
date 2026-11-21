@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="penguinDANCE.png">
+	<!-- Created with Adobe Animate version 24.0.9.74 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceidle0000" x="0" y="0" width="365" height="482" frameX="-18" frameY="-67" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0001" x="365" y="0" width="363" height="498" frameX="-14" frameY="-51" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0002" x="728" y="0" width="356" height="520" frameX="-21" frameY="-28" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0003" x="1084" y="0" width="352" height="541" frameX="-29" frameY="-8" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0004" x="1436" y="0" width="351" height="546" frameX="-42" frameY="-3" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0005" x="0" y="546" width="349" height="550" frameX="-52" frameY="0" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0006" x="349" y="546" width="360" height="549" frameX="-63" frameY="-1" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0007" x="709" y="546" width="392" height="540" frameX="-73" frameY="-10" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0008" x="1101" y="546" width="424" height="523" frameX="-70" frameY="-29" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0009" x="1525" y="546" width="456" height="492" frameX="-61" frameY="-57" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0010" x="0" y="1096" width="462" height="481" frameX="-42" frameY="-69" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0011" x="462" y="1096" width="465" height="472" frameX="-24" frameY="-80" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0012" x="927" y="1096" width="478" height="460" frameX="-13" frameY="-89" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0013" x="1405" y="1096" width="488" height="446" frameX="0" frameY="-104" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0014" x="0" y="1577" width="475" height="458" frameX="-2" frameY="-91" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0015" x="475" y="1577" width="454" height="469" frameX="-8" frameY="-82" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0016" x="929" y="1577" width="427" height="467" frameX="-14" frameY="-82" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0017" x="1356" y="1577" width="398" height="465" frameX="-20" frameY="-84" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0018" x="0" y="0" width="365" height="482" frameX="-18" frameY="-67" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0019" x="365" y="0" width="363" height="498" frameX="-14" frameY="-51" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0020" x="728" y="0" width="356" height="520" frameX="-21" frameY="-28" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0021" x="1084" y="0" width="352" height="541" frameX="-29" frameY="-8" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0022" x="1436" y="0" width="351" height="546" frameX="-42" frameY="-3" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0023" x="0" y="546" width="349" height="550" frameX="-52" frameY="0" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0024" x="349" y="546" width="360" height="549" frameX="-63" frameY="-1" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0025" x="709" y="546" width="392" height="540" frameX="-73" frameY="-10" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0026" x="1101" y="546" width="424" height="523" frameX="-70" frameY="-29" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0027" x="1525" y="546" width="456" height="492" frameX="-61" frameY="-57" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0028" x="0" y="1096" width="462" height="481" frameX="-42" frameY="-69" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0029" x="462" y="1096" width="465" height="472" frameX="-24" frameY="-80" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0030" x="927" y="1096" width="478" height="460" frameX="-13" frameY="-89" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0031" x="1405" y="1096" width="488" height="446" frameX="0" frameY="-104" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0032" x="0" y="1577" width="475" height="458" frameX="-2" frameY="-91" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0033" x="475" y="1577" width="454" height="469" frameX="-8" frameY="-82" frameWidth="517" frameHeight="552"/>
+	<SubTexture name="danceidle0034" x="929" y="1577" width="427" height="467" frameX="-14" frameY="-82" frameWidth="517" frameHeight="552"/>
+</TextureAtlas>

@@ -33,6 +33,34 @@ typedef TitleData =
 	@:optional var dance_left:Array<Int>;
 	@:optional var dance_right:Array<Int>;
 	@:optional var idle:Bool;
+	@:optional var showGf:Bool; // false = hide GF, true (or missing) = show GF
+	@:optional var backgroundAnimated:Bool; // true = backgroundSprite is a Sparrow atlas (png + xml)
+	@:optional var backgroundAnimation:String; // animation prefix inside the xml
+	@:optional var backgroundFps:Float; // default 24
+	@:optional var backgroundLoop:Bool; // default true
+
+	// Background placement / look
+	@:optional var bgx:Float; // default 0
+	@:optional var bgy:Float; // default 0
+	@:optional var bgScale:Float; // default 1
+	@:optional var bgCenter:Bool; // true = center on screen (ignores bgx/bgy)
+	@:optional var bgScroll:Float; // scroll factor, default 1 (below 1 = parallax)
+	@:optional var bgColor:String; // tint, e.g. "#FFFFFF" (white = no tint)
+	@:optional var bgAlpha:Float; // 0 to 1, default 1
+
+	// Logo / Enter text
+	@:optional var showLogo:Bool; // default true
+	@:optional var showEnter:Bool; // default true
+	@:optional var enterSprite:String; // custom enter atlas, default "titleEnter"
+	@:optional var logoBump:Bool; // default true
+	
+	// GF
+	@:optional var gfScale:Float; // default 1
+	@:optional var gfFlip:Bool; // default false
+	@:optional var gfBump:Bool; // default true
+
+	// Music
+	@:optional var music:String; // file name in music/ (no extension), default "freakyMenu"
 }
 
 class TitleState extends MusicBeatState
@@ -120,12 +148,14 @@ class TitleState extends MusicBeatState
 	function startIntro()
 	{
 		persistentUpdate = true;
-		if (!initialized && FlxG.sound.music == null)
-			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 
 		loadJsonData();
 		#if TITLE_SCREEN_EASTER_EGG easterEggData(); #end
 		Conductor.bpm = musicBPM;
+
+		// Needs to happen after loadJsonData() so the JSON can change the music
+		if (!initialized && FlxG.sound.music == null)
+			FlxG.sound.playMusic(Paths.music(menuMusic), 0);
 
 		logoBl = new FlxSprite(logoPosition.x, logoPosition.y);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
@@ -134,6 +164,7 @@ class TitleState extends MusicBeatState
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
+		logoBl.visible = showLogo;
 
 		gfDance = new FlxSprite(gfPosition.x, gfPosition.y);
 		gfDance.antialiasing = ClientPrefs.data.antialiasing;
@@ -158,10 +189,17 @@ class TitleState extends MusicBeatState
 			gfDance.animation.play('idle');
 		}
 
+		gfDance.flipX = gfFlip;
+		if(gfScale != 1)
+		{
+			gfDance.scale.set(gfScale, gfScale);
+			gfDance.updateHitbox();
+		}
+
 
 		var animFrames:Array<FlxFrame> = [];
 		titleText = new FlxSprite(enterPosition.x, enterPosition.y);
-		titleText.frames = Paths.getSparrowAtlas('titleEnter');
+		titleText.frames = Paths.getSparrowAtlas(enterImage);
 		@:privateAccess
 		{
 			titleText.animation.findByPrefix(animFrames, "ENTER IDLE");
@@ -180,6 +218,7 @@ class TitleState extends MusicBeatState
 		}
 		titleText.animation.play('idle');
 		titleText.updateHitbox();
+		titleText.visible = showEnter;
 
 		blackScreen = new FlxSprite().makeGraphic(1, 1, FlxColor.BLACK);
 		blackScreen.scale.set(FlxG.width, FlxG.height);
@@ -197,6 +236,7 @@ class TitleState extends MusicBeatState
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = ClientPrefs.data.antialiasing;
 
+		gfDance.visible = showGf;
 		add(gfDance);
 		add(logoBl); //FNF Logo
 		add(titleText); //"Press Enter to Begin" text
@@ -220,6 +260,15 @@ class TitleState extends MusicBeatState
 	var enterPosition:FlxPoint = FlxPoint.get(100, 576);
 	
 	var useIdle:Bool = false;
+	var showGf:Bool = true;
+	var gfScale:Float = 1;
+	var gfFlip:Bool = false;
+	var gfBump:Bool = true;
+	var showLogo:Bool = true;
+	var logoBump:Bool = true;
+	var showEnter:Bool = true;
+	var enterImage:String = 'titleEnter';
+	var menuMusic:String = 'freakyMenu';
 	var musicBPM:Float = 102;
 	var danceLeftFrames:Array<Int> = [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29];
 	var danceRightFrames:Array<Int> = [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
@@ -243,11 +292,54 @@ class TitleState extends MusicBeatState
 					if(titleJSON.dance_left != null && titleJSON.dance_left.length > 0) danceLeftFrames = titleJSON.dance_left;
 					if(titleJSON.dance_right != null && titleJSON.dance_right.length > 0) danceRightFrames = titleJSON.dance_right;
 					useIdle = (titleJSON.idle == true);
+					showGf = (titleJSON.showGf != false); // defaults to true if not in the JSON
+					gfFlip = (titleJSON.gfFlip == true);
+					gfBump = (titleJSON.gfBump != false);
+					if(titleJSON.gfScale != null && titleJSON.gfScale > 0) gfScale = titleJSON.gfScale;
+
+					showLogo = (titleJSON.showLogo != false);
+					logoBump = (titleJSON.logoBump != false);
+					showEnter = (titleJSON.showEnter != false);
+					if(titleJSON.enterSprite != null && titleJSON.enterSprite.trim().length > 0) enterImage = titleJSON.enterSprite;
+					if(titleJSON.music != null && titleJSON.music.trim().length > 0) menuMusic = titleJSON.music;
 	
 					if (titleJSON.backgroundSprite != null && titleJSON.backgroundSprite.trim().length > 0)
 					{
-						var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image(titleJSON.backgroundSprite));
+						var bg:FlxSprite = new FlxSprite();
+						var animPrefix:String = titleJSON.backgroundAnimation;
+						if(titleJSON.backgroundAnimated == true && animPrefix != null && animPrefix.length > 0)
+						{
+							// Animated background (needs a .png and a matching .xml)
+							var bgFps:Float = (titleJSON.backgroundFps != null && titleJSON.backgroundFps > 0) ? titleJSON.backgroundFps : 24;
+							var bgLoop:Bool = (titleJSON.backgroundLoop != false);
+							bg.frames = Paths.getSparrowAtlas(titleJSON.backgroundSprite);
+							bg.animation.addByPrefix('bgAnim', animPrefix, bgFps, bgLoop);
+							bg.animation.play('bgAnim');
+						}
+						else bg.loadGraphic(Paths.image(titleJSON.backgroundSprite)); // Static background
 						bg.antialiasing = ClientPrefs.data.antialiasing;
+
+						if(titleJSON.bgScale != null && titleJSON.bgScale > 0 && titleJSON.bgScale != 1)
+						{
+							bg.scale.set(titleJSON.bgScale, titleJSON.bgScale);
+							bg.updateHitbox();
+						}
+
+						if(titleJSON.bgCenter == true) bg.screenCenter();
+						else
+						{
+							if(titleJSON.bgx != null) bg.x = titleJSON.bgx;
+							if(titleJSON.bgy != null) bg.y = titleJSON.bgy;
+						}
+
+						if(titleJSON.bgScroll != null) bg.scrollFactor.set(titleJSON.bgScroll, titleJSON.bgScroll);
+						if(titleJSON.bgAlpha != null) bg.alpha = titleJSON.bgAlpha;
+						if(titleJSON.bgColor != null && titleJSON.bgColor.trim().length > 0)
+						{
+							var tint:Null<FlxColor> = FlxColor.fromString(titleJSON.bgColor.trim());
+							if(tint != null) bg.color = tint;
+						}
+
 						add(bg);
 					}
 				}
@@ -501,10 +593,10 @@ class TitleState extends MusicBeatState
 	{
 		super.beatHit();
 
-		if(logoBl != null)
+		if(logoBl != null && logoBump)
 			logoBl.animation.play('bump', true);
 
-		if(gfDance != null)
+		if(gfDance != null && gfBump)
 		{
 			danceLeft = !danceLeft;
 			if(!useIdle)
@@ -524,19 +616,19 @@ class TitleState extends MusicBeatState
 			{
 				case 1:
 					//FlxG.sound.music.stop();
-					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+					FlxG.sound.playMusic(Paths.music(menuMusic), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					createCoolText(['Psych Engine by'], 40);
+					createCoolText(['Jacob Engine by'], 40);
 				case 4:
-					addMoreText('Shadow Mario', 40);
-					addMoreText('Riveren', 40);
+					addMoreText('Jacob', 40);
+					addMoreText('duh', 40);
 				case 5:
 					deleteCoolText();
 				case 6:
 					createCoolText(['Not associated', 'with'], -40);
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText('Newgrounds', -40);
 					ngSpr.visible = true;
 				case 9:
 					deleteCoolText();
@@ -548,11 +640,11 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Jacob');
 				case 15:
-					addMoreText('Night');
+					addMoreText('Build');
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Lmao'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
@@ -607,7 +699,7 @@ class TitleState extends MusicBeatState
 						FlxG.camera.flash(FlxColor.WHITE, 2);
 						skippedIntro = true;
 
-						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+						FlxG.sound.playMusic(Paths.music(menuMusic), 0);
 						FlxG.sound.music.fadeIn(4, 0, 0.7);
 						return;
 				}
@@ -631,7 +723,7 @@ class TitleState extends MusicBeatState
 					slideLogoIn();
 					FlxG.camera.flash(FlxColor.WHITE, 3);
 					sound.onComplete = function() {
-						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+						FlxG.sound.playMusic(Paths.music(menuMusic), 0);
 						FlxG.sound.music.fadeIn(4, 0, 0.7);
 						transitioning = false;
 						#if ACHIEVEMENTS_ALLOWED

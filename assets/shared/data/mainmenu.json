@@ -1,0 +1,109 @@
+{
+	"allowMouse": true,
+
+	"background": {
+		"randomize": true,
+		"count": 15,
+		"fixed": 1,
+		"imagePrefix": "menuart/menuBG",
+		"scale": 1.175,
+		"x": -80,
+		"y": 0,
+		"alpha": 1,
+		"color": "FFFFFF"
+	},
+
+	"camera": {
+		"followLerp": 0.15,
+		"followSelected": true,
+		"followOffsetY": 0,
+		"scrollY": 0.25,
+		"zoom": 1
+	},
+
+	"sprites": [],
+
+	"mainLayout": {
+		"x": 60,
+		"y": 90,
+		"spacing": 140,
+		"spacingX": 0,
+		"balance": true,
+		"scale": 1
+	},
+
+	"mainItems": [
+		"story_mode",
+		"freeplay"
+	],
+
+	"leftItem": {
+		"enabled": true,
+		"name": "achievements",
+		"x": 60,
+		"y": 350,
+		"anchor": "right",
+		"scale": 1
+	},
+
+	"rightItem": {
+		"enabled": true,
+		"name": "options",
+		"x": 60,
+		"y": 490,
+		"anchor": "right",
+		"scale": 1
+	},
+
+	"selection": {
+		"selectedScale": 1,
+		"selectedAlpha": 1,
+		"unselectedAlpha": 1,
+		"tweenDuration": 0,
+		"wrap": true
+	},
+
+	"confirm": {
+		"flicker": true,
+		"flickerDuration": 1,
+		"flickerInterval": 0.06,
+		"flash": true,
+		"flashDuration": 1.1,
+		"flashInterval": 0.15,
+		"flashColor": "FFFFFF",
+		"fadeOthers": false,
+		"fadeDuration": 0.4
+	},
+
+	"slideIn": {
+		"enabled": true,
+		"duration": 0.6,
+		"stagger": 0.08,
+		"ease": "expoOut",
+		"direction": "auto"
+	},
+
+	"slideOut": {
+		"enabled": true,
+		"duration": 0.5,
+		"stagger": 0.04,
+		"ease": "expoIn",
+		"direction": "auto"
+	},
+
+	"sounds": {
+		"scroll": "scrollMenu",
+		"confirm": "confirmMenu",
+		"cancel": "cancelMenu"
+	},
+
+	"versionText": {
+		"visible": true,
+		"showPsych": true,
+		"showFnf": true,
+		"x": 12,
+		"bottom": 44,
+		"size": 16,
+		"color": "FFFFFF"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"enabled": true,
+	"showTransIn": true,
+	"showTransOut": true,
+	"color": "0xFF000000",
+	"durationMultiplier": 1.0,
+	"disabledStates": []
+}

@@ -1,0 +1,85 @@
+{
+	"font": "vcr.ttf",
+	"hotReloadKey": "F6",
+
+	"menuItems": ["Resume", "Restart Song", "Change Difficulty", "Toggle Botplay", "Options", "Exit to menu"],
+
+	"labels": {
+		"Resume": "Resume",
+		"Restart Song": "Restart Song",
+		"Change Difficulty": "Change Difficulty",
+		"Toggle Botplay": "Toggle Botplay",
+		"Options": "Options",
+		"Exit to menu": "Exit to menu"
+	},
+
+	"animations": {
+		"slideIn": true,
+		"slideOut": true,
+		"slideOutTime": 0.3
+	},
+
+	"background": {
+		"color": "#000000",
+		"alpha": 0.6,
+		"fadeTime": 0.4,
+		"image": "",
+		"tint": "#FFFFFF",
+		"scaleMode": "fill",
+		"blend": "normal",
+		"blur": 0
+	},
+
+	"menu": {
+		"x": 90,
+		"y": 320,
+		"offsetX": 0,
+		"align": "left",
+		"distanceX": 20,
+		"distanceY": 120,
+		"inactiveAlpha": 0.6,
+		"color": "#FFFFFF",
+		"selectedColor": "#FFFFFF",
+		"selectedScale": 1,
+		"slideIn": true,
+		"slideFrom": "left",
+		"slideTo": "left",
+		"slideStagger": 80
+	},
+
+	"cursor": {
+		"visible": false,
+		"text": ">",
+		"image": "",
+		"size": 64,
+		"scale": 1,
+		"color": "#FFFFFF",
+		"offsetX": -60,
+		"offsetY": 0
+	},
+
+	"sounds": {
+		"scroll": "scrollMenu",
+		"scrollVolume": 0.4,
+		"confirm": "",
+		"confirmVolume": 0.7
+	},
+
+	"music": {
+		"track": "",
+		"maxVolume": 0.5,
+		"fadeSpeed": 0.01
+	},
+
+	"infoTexts": {
+		"song":       { "visible": true, "text": "{song}",       "size": 32, "color": "#FFFFFF", "align": "right", "y": 20, "offsetX": 0, "slideIn": true, "slideFrom": "right", "delay": 0.3 },
+		"difficulty": { "visible": true, "text": "{difficulty}", "size": 32, "color": "#FFFFFF", "align": "right", "y": 52, "offsetX": 0, "slideIn": true, "slideFrom": "right", "delay": 0.45 },
+		"blueballed": { "visible": true, "text": "Blueballed: {deaths}", "size": 32, "color": "#FFFFFF", "align": "right", "y": 84, "offsetX": 0, "slideIn": true, "slideFrom": "right", "delay": 0.6 },
+		"practice":   { "visible": true, "text": "PRACTICE MODE", "size": 32, "color": "#FFFFFF", "align": "right", "y": 116, "slideIn": false },
+		"charting":   { "visible": true, "text": "CHARTING MODE", "size": 32, "color": "#FFFFFF", "align": "right", "slideIn": false }
+	},
+
+	"extraTexts": [
+		{ "visible": false, "text": "Score: {score}  Acc: {accuracy}% ({rating})", "size": 28, "align": "right", "y": 148, "slideFrom": "right", "showWhen": ["freeplay"] }
+	]
+}

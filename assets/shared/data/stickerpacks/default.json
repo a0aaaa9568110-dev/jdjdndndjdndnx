@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0",
+	"name": "Default Stickers",
+	"artist": "Your name here",
+	"stickers": [
+		"stickers/sticker1",
+		"stickers/sticker2",
+		"stickers/sticker3"
+	],
+	"sounds": [
+		"stickersounds/click1",
+		"stickersounds/click2"
+	]
+}

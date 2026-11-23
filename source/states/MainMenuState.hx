@@ -99,7 +99,7 @@ class MainMenuState extends MusicBeatState
 
 	var bgImagePrefix:String = 'menuart/menuBG';
 	var bgAlpha:Float = 1;
-	var bgColor:FlxColor = FlxColor.WHITE;
+	var menuBgColor:FlxColor = FlxColor.WHITE;
 
 	// Selected / unselected look
 	var selScale:Float = 1; // scale multiplier of the highlighted item
@@ -168,7 +168,7 @@ class MainMenuState extends MusicBeatState
 
 		var bg:FlxSprite = new FlxSprite(bgX, bgY).loadGraphic(Paths.image(bgImagePrefix + bgNum));
 		bg.alpha = bgAlpha;
-		bg.color = bgColor;
+		bg.color = menuBgColor;
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * bgScale));
@@ -290,7 +290,7 @@ class MainMenuState extends MusicBeatState
 		bgY = getFloat(bgJ, 'y', 0);
 		bgImagePrefix = getString(bgJ, 'imagePrefix', 'menuart/menuBG');
 		bgAlpha = getFloat(bgJ, 'alpha', 1);
-		bgColor = getColor(bgJ, 'color', FlxColor.WHITE);
+		menuBgColor = getColor(bgJ, 'color', FlxColor.WHITE);
 
 		// Camera
 		var camJ:Dynamic = field(json, 'camera');

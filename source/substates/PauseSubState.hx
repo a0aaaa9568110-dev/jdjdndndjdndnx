@@ -942,7 +942,7 @@ class PauseSubState extends MusicBeatSubstate
 				restartSong();
 				return;
 			case 'charteditor':
-				PlayState.instance.openChartEditor();
+				@:privateAccess PlayState.instance.openChartEditor();
 				return;
 			case 'switchstate':
 				var path:String = inString(def, 'state', null);
